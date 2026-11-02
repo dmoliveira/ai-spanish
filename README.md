@@ -6,6 +6,9 @@
 
 **A practical guide to learning Spanish with YouTube, news, podcasts, travel, gaming and the topics you already love.**
 
+[🌐 Explore the website](https://dmoliveira.github.io/learn-spanish-immersion/)
+
+[![Website](https://img.shields.io/badge/explore-the%20website-21796e)](https://dmoliveira.github.io/learn-spanish-immersion/)
 [![Spanish](https://img.shields.io/badge/language-Espa%C3%B1ol-e95638)](#-start-here)
 [![Learning](https://img.shields.io/badge/approach-daily%20immersion-2d7773)](#-a-simple-daily-routine)
 [![YouTube](https://img.shields.io/badge/watch-on%20YouTube-ff0000?logo=youtube&logoColor=white)](#-learn-spanish)
@@ -24,11 +27,11 @@ Pick **one learning channel and one topic you enjoy**. Start with material you m
 | --- | --- |
 | 🌱 New to Spanish | Choose a beginner video on [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish); use pictures and context to follow along. |
 | 🌿 Building confidence | Try [Easy Spanish](https://www.youtube.com/@EasySpanish) or [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official); replay a short exchange and repeat it aloud. |
-| 🌳 Ready for native content | Pick a story from [BBC News Mundo](https://www.youtube.com/@BBCNewsMundo) or a video about a favorite interest, then summarize it in Spanish. |
+| 🌳 Ready for native content | Pick a story from [BBC News Mundo](https://www.youtube.com/@BBCMundo) or a video about a favorite interest, then summarize it in Spanish. |
 
 Mix accents as your listening grows: this list includes voices from Spain, Mexico, Colombia, Argentina and elsewhere. Most links are free to visit; individual creators may offer paid extras, and availability or subtitles can vary.
 
-**First five** (news and AI are more challenging for beginners): [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish) · [Easy Spanish](https://www.youtube.com/@EasySpanish) · [BBC News Mundo](https://www.youtube.com/@BBCNewsMundo) · [Luisito Comunica](https://www.youtube.com/@luisitocomunica) · [Dot CSV](https://www.youtube.com/@DotCSV)
+**First five** (news and AI are more challenging for beginners): [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish) · [Easy Spanish](https://www.youtube.com/@EasySpanish) · [BBC News Mundo](https://www.youtube.com/@BBCMundo) · [Luisito Comunica](https://www.youtube.com/@luisitocomunica) · [Dot CSV](https://www.youtube.com/@DotCSV)
 
 > 💡 Portuguese speakers may recognize a lot of vocabulary. Pay special attention to pronunciation, listening, and false friends rather than assuming familiar-looking words mean the same thing.
 
@@ -48,7 +51,7 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 3. [Español con Juan](https://www.youtube.com/@espanolconjuan) — stories and intermediate listening practice.
 4. [Why Not Spanish?](https://www.youtube.com/@WhyNotSpanish) — lessons and conversations about life and culture.
 5. [Spring Spanish](https://www.youtube.com/@SpringSpanish) — practical phrases and listening lessons.
-6. [The Spanish Dude](https://www.youtube.com/@TheSpanishDude) — explanations of grammar and common problems.
+6. [The Spanish Dude](https://www.youtube.com/@elspanishdude) — explanations of grammar and common problems.
 7. [SpanishPod101](https://www.youtube.com/@SpanishPod101) — short lessons and listening practice.
 8. [The Language Tutor](https://www.youtube.com/@TheLanguageTutor) — structured beginner Spanish lessons.
 
@@ -76,7 +79,7 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 
 | # | Resource | Coverage | Format |
 | --- | --- | --- | --- |
-| 1 | [BBC News Mundo](https://www.youtube.com/@BBCNewsMundo) | International news and explainers | YouTube |
+| 1 | [BBC News Mundo](https://www.youtube.com/@BBCMundo) | International news and explainers | YouTube |
 | 2 | [DW Español](https://www.youtube.com/@dwespanol) | World news and documentaries | YouTube |
 | 3 | [Noticias Telemundo](https://www.telemundo.com/noticias) | US, Latin American and world news | Website |
 | 4 | [CNN en Español](https://cnnespanol.cnn.com/) | International and regional reporting | Website |
@@ -179,7 +182,7 @@ Tourism resources are useful for both planning and reading practice. Most of the
 
 ## 🎮 Nintendo & gaming
 
-1. [Nintendúo](https://www.youtube.com/@Nintenduo) — Nintendo, Switch and retro games.
+1. [Nintendúo](https://www.youtube.com/@NintenduoESP) — Nintendo, Switch and retro games.
 2. [Nintenderos](https://www.youtube.com/channel/UCcNIdhacptxZIF1zpOTUxyQ) — Nintendo news.
 3. [Puerta al Sótano](https://www.youtube.com/@Dan-PuertaAlSotano) — game analysis.
 4. [elrubiusOMG](https://www.youtube.com/@elrubiusOMG) — gaming and entertainment.
@@ -201,7 +204,7 @@ Explore political vocabulary across perspectives. These are approximate, context
 
 These sources do not necessarily identify as centrist: they offer a range of reporting, analysis or interviews that can complement explicitly partisan commentary.
 
-1. [BBC News Mundo](https://www.youtube.com/@BBCNewsMundo) — international reporting and explainers.
+1. [BBC News Mundo](https://www.youtube.com/@BBCMundo) — international reporting and explainers.
 2. [DW Español](https://www.youtube.com/@dwespanol) — news and analysis from a German public broadcaster.
 3. [France 24 en Español](https://www.france24.com/es/) — international reporting and debate.
 4. [El País](https://elpais.com/) — center-left-leaning Spanish newspaper with news and opinion.
@@ -265,7 +268,7 @@ More resources from the original watchlist. Search links are labeled; choose the
 2. [carwow España](https://www.youtube.com/@carwowesp)
 3. [Garaje Hermético](https://www.youtube.com/@GarajeHermetico)
 4. [Motorpasión](https://www.youtube.com/@MotorpasionES)
-5. [PowerArt](https://www.youtube.com/@PowerArt)
+5. [PowerArt](https://www.youtube.com/@GuilleGarciaAlfonsin)
 
 ### 💼 Careers & entrepreneurship
 
@@ -370,7 +373,7 @@ Repeat a week or switch topics whenever you need to. This is a practice plan, no
 
 The original watchlist came from a Spanish-learning conversation and is organized here for browsing. Difficulty and topic descriptions are guides, not endorsements; creators' content and links can change. Search links are labeled, and channel handles should be checked before subscribing. If you find an outdated link or have a useful suggestion, [open an issue](https://github.com/dmoliveira/learn-spanish-immersion/issues/new).
 
-**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content.
+**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content. The [website](https://dmoliveira.github.io/learn-spanish-immersion/) is generated from this README; to preview changes, run `npm test` and `npm run build`, then open `dist/index.html`.
 
 ## 💛 Support the project
 
