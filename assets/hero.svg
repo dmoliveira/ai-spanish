@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Español, un día a la vez</title><desc id="desc">A warm sunset over mountains, with a speech bubble and a path towards Spanish immersion.</desc>
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#182f43"/><stop offset="1" stop-color="#355c62"/></linearGradient></defs>
+<rect width="1200" height="320" rx="24" fill="url(#sky)"/><circle cx="1002" cy="92" r="57" fill="#f9bf66"/><path d="M0 268 185 169 320 248 500 155 660 258 835 176 1025 267 1200 188V320H0Z" fill="#284b50"/><path d="M0 302 205 226 358 294 550 218 755 307 958 226 1200 308V320H0Z" fill="#162f3c"/>
+<rect x="64" y="61" width="66" height="53" rx="15" fill="#f9bf66"/><path d="m82 109 0 17 18-17" fill="#f9bf66"/><text x="97" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="bold" fill="#182f43">¡!</text>
+<text x="155" y="103" font-family="Arial,sans-serif" font-size="48" font-weight="bold" fill="#fff8e9">ESPAÑOL</text><text x="68" y="169" font-family="Arial,sans-serif" font-size="29" fill="#fff8e9">Un día a la vez.</text><text x="68" y="209" font-family="Arial,sans-serif" font-size="18" fill="#f9d99c">LISTEN · EXPLORE · SPEAK</text></svg>
