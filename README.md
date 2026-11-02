@@ -9,9 +9,10 @@
 [![Spanish](https://img.shields.io/badge/language-Espa%C3%B1ol-e95638)](#-start-here)
 [![Learning](https://img.shields.io/badge/approach-daily%20immersion-2d7773)](#-a-simple-daily-routine)
 [![YouTube](https://img.shields.io/badge/watch-on%20YouTube-ff0000?logo=youtube&logoColor=white)](#-learn-spanish)
+[![README checks](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml/badge.svg)](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml)
 [![Support via Stripe](https://img.shields.io/badge/support-stripe-635bff?logo=stripe&logoColor=white)](https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00)
 
-[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Routine](#-a-simple-daily-routine)
+[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Podcasts](#-listen-on-the-go) · [Routine](#-a-simple-daily-routine)
 
 </div>
 
@@ -22,7 +23,7 @@ Pick **one learning channel and one topic you enjoy**. Start with material you m
 | Your starting point | Try this |
 | --- | --- |
 | 🌱 New to Spanish | Choose a beginner video on [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish); use pictures and context to follow along. |
-| 🌿 Building confidence | Try [Easy Spanish](https://www.youtube.com/@EasySpanish) or [How to Spanish](https://www.youtube.com/@HowtoSpanishOfficial); replay a short exchange and repeat it aloud. |
+| 🌿 Building confidence | Try [Easy Spanish](https://www.youtube.com/@EasySpanish) or [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official); replay a short exchange and repeat it aloud. |
 | 🌳 Ready for native content | Pick a story from [BBC News Mundo](https://www.youtube.com/@BBCNewsMundo) or a video about a favorite interest, then summarize it in Spanish. |
 
 Mix accents as your listening grows: this list includes voices from Spain, Mexico, Colombia, Argentina and elsewhere. Most links are free to visit; individual creators may offer paid extras, and availability or subtitles can vary.
@@ -31,14 +32,14 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 
 > 💡 Portuguese speakers may recognize a lot of vocabulary. Pay special attention to pronunciation, listening, and false friends rather than assuming familiar-looking words mean the same thing.
 
-## 🗣️ Learn Spanish
+## 📘 Learn Spanish
 
 | # | Resource | Why watch | Starting point |
 | --- | --- | --- | --- |
 | 1 | [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish) | Immersive stories and conversations at different levels | Beginner–advanced |
 | 2 | [Easy Spanish](https://www.youtube.com/@EasySpanish) | Street interviews and everyday expressions, often with subtitles | Intermediate |
 | 3 | [Spanish After Hours](https://www.youtube.com/@SpanishAfterHours) | Relaxed, comprehensible stories and daily activities | Beginner–intermediate · Spain |
-| 4 | [How to Spanish](https://www.youtube.com/@HowtoSpanishOfficial) | Conversations about Mexican life and culture | Intermediate · Mexico |
+| 4 | [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official) | Conversations about Mexican life and culture | Intermediate · Mexico |
 
 ### 📺 More learning channels
 
@@ -65,7 +66,7 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 10. [Notes in Spanish](https://www.notesinspanish.com/) — conversations at several levels.
 11. [Coffee Break Spanish](https://coffeebreaklanguages.com/coffeebreakspanish/) — guided audio lessons.
 12. [Radio Ambulante](https://radioambulante.org/) — narrative journalism and transcripts for advanced listeners.
-13. [Spanish proficiency levels: Instituto Cervantes](https://examenes.cervantes.es/en/dele/what-is-dele) — overview of DELE qualifications and levels.
+13. [Spanish proficiency levels: Instituto Cervantes](https://berlin.cervantes.es/es/diplomas_espanol_dele/formato_niveles_examen_dele.htm) — descriptions of DELE exams and CEFR levels A1–C2, in Spanish.
 
 ## 📰 News & current affairs
 
@@ -139,7 +140,7 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 
 ### 🗺️ Destination guides in Spanish
 
-Official tourism resources are useful for both planning and reading practice. Check opening hours, entry rules and safety advice directly before traveling.
+Tourism resources are useful for both planning and reading practice. Most of the links below are official tourism portals; España Fascinante is an independent cultural magazine. Check opening hours, entry rules and safety advice directly before traveling.
 
 1. [Spain: España Fascinante](https://espanafascinante.com/) — destinations, food and culture.
 2. [Spain: Spain.info](https://www.spain.info/es/) — official tourism portal and itineraries.
@@ -150,7 +151,7 @@ Official tourism resources are useful for both planning and reading practice. Ch
 7. [Costa Rica: Visit Costa Rica](https://www.visitcostarica.com/es) — travel and nature information.
 8. [Uruguay: Turismo Uruguay](https://uruguaynatural.com/) — destinations and experiences.
 9. [Ecuador: Ecuador Travel](https://ecuador.travel/) — destination information and inspiration.
-10. [Guatemala: Visit Guatemala](https://visitguatemala.com/) — places, culture and experiences.
+10. [Guatemala: Visit Guatemala](https://visitguatemala.gt/) — places, culture and experiences.
 11. [Panama: Visit Panamá](https://www.tourismpanama.com/es/) — destination ideas and planning.
 
 ## 🤖 AI, machine learning & technology
@@ -158,14 +159,14 @@ Official tourism resources are useful for both planning and reading practice. Ch
 | # | Resource | Focus |
 | --- | --- | --- |
 | 1 | [Dot CSV](https://www.youtube.com/@DotCSV) | AI research, machine learning and generative AI |
-| 2 | [Dot CSV Labs](https://www.youtube.com/@DotCSVlabs) | Practical AI experiments |
+| 2 | [Dot CSV Lab](https://www.youtube.com/@DotCSVLab) | Practical AI experiments |
 | 3 | [midudev](https://www.youtube.com/@midudev) | Programming, developer tools and AI-assisted coding |
 | 4 | [mouredev](https://www.youtube.com/@mouredev) | Software development and programming |
 | 5 | [Platzi](https://www.youtube.com/@Platzi) | Technology, AI and data science |
 | 6 | [Nate Gentile](https://www.youtube.com/@NateGentile7) | Hardware, GPUs and engineering |
 | 7 | [CdeCiencia](https://www.youtube.com/@CdeCiencia) | Science and technology |
 | 8 | [Xavier Mitjana](https://www.youtube.com/@XavierMitjana) | AI tools and agents |
-| 9 | [Jon Hernández](https://www.youtube.com/@JonHernandezEducation) | AI news and business applications |
+| 9 | [Jon Hernández](https://www.youtube.com/@la_inteligencia_artificial) | AI news and business applications |
 | 10 | [Ringa Tech](https://www.youtube.com/@RingaTech) | Python and machine learning |
 | 11 | [Fazt](https://www.youtube.com/@FaztTech) | Software development and coding |
 
@@ -182,10 +183,10 @@ Official tourism resources are useful for both planning and reading practice. Ch
 2. [Nintenderos](https://www.youtube.com/channel/UCcNIdhacptxZIF1zpOTUxyQ) — Nintendo news.
 3. [Puerta al Sótano](https://www.youtube.com/@Dan-PuertaAlSotano) — game analysis.
 4. [elrubiusOMG](https://www.youtube.com/@elrubiusOMG) — gaming and entertainment.
-5. [BaityBait](https://www.youtube.com/@BaityBait) — gaming commentary and analysis.
+5. [BaityBait](https://www.youtube.com/@SrBaityBait) — gaming commentary and analysis.
 6. [3DJuegos](https://www.youtube.com/@3DJuegos) — video game news and reviews.
 
-## 🏛️ Politics & economics
+## 🏛 Politics & economics
 
 Explore political vocabulary across perspectives. These are approximate, context-dependent descriptions, not definitive labels or endorsements. Outlets mix reporting, analysis and opinion in different proportions; compare claims and primary sources rather than treating commentary as fact.
 
@@ -220,13 +221,13 @@ Search links are intentionally labeled: choose the official channel from the res
 
 ## 🧭 More to explore
 
-More channels from the original watchlist. Some handles have not been independently verified; if a channel has moved, search YouTube for its name.
+More resources from the original watchlist. Search links are labeled; choose the intended creator from the results. Some handles have not been independently verified, and channels can move.
 
 ### 💻 Gadgets, programming & cybersecurity
 
 1. [Topes de Gama](https://www.youtube.com/@TopesdeGama)
 2. [Pro Android](https://www.youtube.com/@ProAndroid)
-3. [Geek de Gafas](https://www.youtube.com/@geekdegafas)
+3. [Geek de Gafas](https://www.youtube.com/@GeekdegafasYT)
 4. [clipset](https://www.youtube.com/@clipset)
 5. [Tecnonauta](https://www.youtube.com/@Tecnonauta)
 6. [Hola Mundo](https://www.youtube.com/@HolaMundoDev)
@@ -239,14 +240,14 @@ More channels from the original watchlist. Some handles have not been independen
 2. [Rankia](https://www.youtube.com/@Rankia)
 3. [Value School](https://www.youtube.com/@ValueSchool)
 4. [Economipedia](https://www.youtube.com/@Economipedia)
-5. [El Arte de Invertir](https://www.youtube.com/@ElArteDeInvertir)
+5. [El Arte de Invertir](https://www.youtube.com/results?search_query=El+Arte+de+Invertir+finanzas) — 🔎 Search link; several channels have similar names.
 
 ### 🌍 History & geopolitics
 
 1. [Memorias de Pez](https://www.youtube.com/@MemoriasdePez)
 2. [Academia Play](https://www.youtube.com/@AcademiaPlay)
 3. [Pero Eso Es Otra Historia](https://www.youtube.com/@PeroEsoEsOtraHistoria)
-4. [Descifrando la Guerra](https://www.youtube.com/@DescifrandoLaGuerra)
+4. [Descifrando la Guerra](https://www.youtube.com/@DescifrandolaGuerraYT)
 
 ### ✈️ More travel, games & science
 
@@ -261,9 +262,9 @@ More channels from the original watchlist. Some handles have not been independen
 ### 🚗 Cars & transport
 
 1. [coches.net](https://www.youtube.com/@cochesnet)
-2. [carwow España](https://www.youtube.com/@carwowes)
+2. [carwow España](https://www.youtube.com/@carwowesp)
 3. [Garaje Hermético](https://www.youtube.com/@GarajeHermetico)
-4. [Motorpasión](https://www.youtube.com/@Motorpasion)
+4. [Motorpasión](https://www.youtube.com/@MotorpasionES)
 5. [PowerArt](https://www.youtube.com/@PowerArt)
 
 ### 💼 Careers & entrepreneurship
@@ -276,7 +277,7 @@ More channels from the original watchlist. Some handles have not been independen
 
 ### 🍳 Food & culture
 
-1. [La Capital](https://www.youtube.com/@LaCapital)
+1. [La Capital](https://www.youtube.com/@lacapitalcocina)
 2. [Cocina con Coqui](https://www.youtube.com/@CocinaConCoqui)
 3. [Paulina Cocina](https://www.youtube.com/@PaulinaCocina)
 
@@ -284,7 +285,7 @@ More channels from the original watchlist. Some handles have not been independen
 
 1. [DW Documental](https://www.youtube.com/@DWDocumental)
 2. [VICE en Español](https://www.youtube.com/@VICEenEspanol)
-3. [RTVE Documentales](https://www.youtube.com/@RTVEDocumentales)
+3. [RTVE Play: Documentales](https://www.rtve.es/play/documentales/) — official documentary catalogue; availability may vary by location.
 
 ## ⛪ Catholicism, philosophy & traditional culture
 
@@ -294,7 +295,7 @@ A mix of Catholic teaching, news, philosophy and cultural traditions. These sour
 
 1. [EWTN Español](https://www.youtube.com/@EWTNEspanol) — Catholic television, interviews and devotional programming.
 2. [ACI Prensa](https://www.aciprensa.com/) — Catholic news in Spanish.
-3. [Catholic Link](https://www.youtube.com/@CatholicLink) — Catholic media and faith-related discussions.
+3. [Catholic Link](https://www.youtube.com/@catholic-link) — Catholic media and faith-related discussions.
 4. [Píldoras de Fe](https://www.youtube.com/@PildorasdeFe) — Catholic reflections and prayer.
 5. [Fray Nelson Medina](https://www.youtube.com/results?search_query=Fray+Nelson+Medina) — talks and theological reflections. 🔎 Search link
 6. [Vatican News en español](https://www.vaticannews.va/es.html) — Vatican news, audio and reporting.
@@ -334,7 +335,9 @@ Try a short reflection or museum story, write down a few recurring words, then d
 
 Audio alone can be harder than video. Start with a short episode, use a transcript if available, and revisit it later without reading.
 
-## ⏱️ A simple daily routine
+## ⏳ A simple daily routine
+
+**Have 40 minutes?** Try this mix, adjusting the content to your level:
 
 1. **10 min:** Watch a learner-friendly video from Dreaming Spanish or Easy Spanish.
 2. **10 min:** Follow a story on BBC News Mundo or DW Español; beginners can use another learner-friendly video instead.
@@ -343,6 +346,8 @@ Audio alone can be harder than video. Start with a short episode, use a transcri
 
 Use Spanish subtitles when helpful, then replay a short segment without them. On YouTube, use the **CC** button when available and the settings menu to adjust playback speed. Automatic captions can contain mistakes. Adjust the mix and speed to your level; consistency matters more than the exact timing.
 
+**Only 10 minutes?** Watch six minutes of learner-friendly Spanish, replay two minutes, then spend two minutes saying or writing what you understood. It is fine to keep the recap to a few words.
+
 ### 🗓️ Your first week
 
 1. **Days 1–2:** Choose a learner-friendly video and note three phrases you recognize.
@@ -350,9 +355,22 @@ Use Spanish subtitles when helpful, then replay a short segment without them. On
 3. **Days 5–6:** Sample a different accent or a short podcast; look up only words you keep hearing.
 4. **Day 7:** Give a one-minute recap in Spanish and choose what you want to watch next week.
 
+### 🗓️ Keep going: a flexible four-week path
+
+| Week | Focus | Small goal |
+| --- | --- | --- |
+| 1 | Comprehensible input | Choose a learner-friendly channel and collect a few useful phrases. |
+| 2 | Travel and daily life | Watch a travel video, then describe a place or meal in Spanish. |
+| 3 | News and different accents | Try a short news story or a second learning video; compare speakers from two regions. |
+| 4 | Listening and speaking | Revisit a favorite clip or podcast and give a short recap without reading. |
+
+Repeat a week or switch topics whenever you need to. This is a practice plan, not a promise of fluency or a substitute for conversation practice.
+
 ## 🔗 About this list
 
 The original watchlist came from a Spanish-learning conversation and is organized here for browsing. Difficulty and topic descriptions are guides, not endorsements; creators' content and links can change. Search links are labeled, and channel handles should be checked before subscribing. If you find an outdated link or have a useful suggestion, [open an issue](https://github.com/dmoliveira/learn-spanish-immersion/issues/new).
+
+**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content.
 
 ## 💛 Support the project
 
