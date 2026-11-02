@@ -1,0 +1,15 @@
+{
+  "name": "learn-spanish-immersion",
+  "private": true,
+  "scripts": {
+    "check:links": "remark README.md --use remark-validate-links --frail --quiet --no-stdout"
+  },
+  "devDependencies": {
+    "remark-cli": "12.0.1",
+    "remark-validate-links": "13.1.0"
+  },
+  "overrides": {
+    "glob": "14.0.3",
+    "minimatch": "11.0.4"
+  }
+}
