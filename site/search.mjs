@@ -30,14 +30,26 @@ function hasWord(haystack, token) {
 }
 
 function describe(container, label) {
-  if (!container || container.querySelectorAll('a[href]').length !== 1) return '';
+  if (!container) return '';
+  const links = [...container.querySelectorAll('a[href]')];
+  let source = container;
+  if (links.length !== 1) {
+    // Explicitly labeled companion channels belong to the preceding resource;
+    // other multi-link entries may describe several unrelated resources.
+    const companion = links[1];
+    if (links.length !== 2 || !/^YouTube: .+/u.test(tidy(companion.textContent))
+        || !/^https:\/\/www\.youtube\.com\/(?:@[^/?#]+|(?:channel|c|user)\/[^/?#]+)\/?$/i.test(companion.getAttribute('href'))) return '';
+    source = container.cloneNode(true);
+    source.querySelectorAll('a[href]')[1].remove();
+  }
+  const excerpt = (node) => tidy(node.textContent).replace(/\s*·\s*$/u, '');
   let description = '';
-  if (container.tagName === 'TR') {
-    const cells = [...container.children].filter((child) => child.tagName === 'TD');
+  if (source.tagName === 'TR') {
+    const cells = [...source.children].filter((child) => child.tagName === 'TD');
     if (cells.length > 1 && /^\d+$/.test(tidy(cells[0].textContent))) cells.shift();
-    description = cells.map((cell) => tidy(cell.textContent)).filter(Boolean).join(' — ');
+    description = cells.map(excerpt).filter(Boolean).join(' — ');
   } else {
-    description = tidy(container.textContent);
+    description = excerpt(source);
   }
   if (description === label) return '';
   if (description.startsWith(label) && /^[\s—–:·,.;!?]/u.test(description.slice(label.length))) {
