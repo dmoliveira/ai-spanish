@@ -78,6 +78,19 @@ test('starter choices are numbered, linkable and do not require a table', async 
   assert.ok(links.includes('https://coffeebreaklanguages.com/tag/cbs-season-1/'));
 });
 
+test('desktop and mobile topic navigation share the same heading targets', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  const navs = elements(page, 'nav').filter((node) => node.properties.ariaLabel === 'Resource sections');
+  assert.equal(navs.length, 2);
+  const targets = navs.map((nav) => elements(nav, 'a').map((node) => node.properties.href));
+  assert.ok(targets[0].length > 10);
+  assert.deepEqual(targets[0], targets[1]);
+  assert.ok(targets[0].includes('#-reading--stories'));
+  const mobile = elements(page, 'details').find((node) => node.properties.className?.includes('mobile-topic-index'));
+  assert.ok(mobile && !mobile.properties.open, 'mobile index should start collapsed');
+  assert.equal(elements(mobile, 'summary').length, 1);
+});
+
 test('brief Spanish phrases are marked without changing English context', async () => {
   const page = parseHtml(await renderSite(readme, template));
   assert.ok(elements(page, 'em').some((node) => node.properties.lang === 'es' && JSON.stringify(node).includes('en español')));

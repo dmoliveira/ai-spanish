@@ -15,7 +15,7 @@
 [![README checks](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml/badge.svg)](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml)
 [![Support via Stripe](https://img.shields.io/badge/support-stripe-635bff?logo=stripe&logoColor=white)](https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00)
 
-[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Podcasts](#-listen-on-the-go) · [Routine](#-a-simple-daily-routine)
+[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [Reading](#-reading--stories) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Podcasts](#-listen-on-the-go) · [Routine](#-a-simple-daily-routine)
 
 </div>
 
@@ -71,6 +71,26 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 13. [Spanish proficiency levels: Instituto Cervantes](https://berlin.cervantes.es/es/diplomas_espanol_dele/formato_niveles_examen_dele.htm) — descriptions of DELE exams and CEFR levels A1–C2, in Spanish.
 14. [Spanish Playground: Buena Gente](https://www.spanishplayground.net/spanish-video-series-buena-gente/) — short, visually supported stories for beginners; episodes and some activities are free.
 15. [Spanish for False Beginners](https://www.spanishlanguagecoach.com/beginnerspanishpodcast) — beginner-friendly podcast from Spain; episodes and some transcripts are free, with paid courses available.
+
+### 🇧🇷 Resources for Portuguese speakers
+
+Spanish and Portuguese share many words, but similar-looking words can have different or overlapping meanings. Check the context and region before assuming a translation.
+
+1. [Tradulex: Portuguese–Spanish false friends](https://www.tradulex.com/Glossaries/falsos_por-esp.htm) — a non-exhaustive bidirectional reference with regional notes; some older character encoding may display incorrectly.
+2. [Priberam: apelido](https://dicionario.priberam.org/apelido) — a Portuguese dictionary example showing regional senses; compare with the [RAE Spanish dictionary](https://dle.rae.es/).
+
+## 📖 Reading & stories
+
+Choose a short text that interests you. Read once for the main idea, listen if audio is available, and note a useful phrase rather than translating every word. Levels are approximate.
+
+1. [VideoEle: A1 videos](https://videoele.com/menu-A1.html) — beginner videos with Spanish subtitles, transcript PDFs and activities; free resources extend to B2.
+2. [SpanishBOOM: texts with audio](https://spanishboom.com/spanish-texts-with-audio/) — short beginner-friendly texts, audio and English translations; the site also sells courses.
+3. [The Spanish Experiment: stories](https://www.thespanishexperiment.com/stories) — familiar children's stories with Spanish narration, text and English translation; stories are not CEFR-graded.
+4. [Lingua.com: Spanish reading](https://lingua.com/spanish/reading/) — graded texts and comprehension questions from A1; some readings are free, while most texts and some audio require premium.
+5. [Trayectos](https://trayectosoer.org/) — free university-supported novice curriculum with online and PDF textbooks and cultural media.
+6. [HablaCultura: learner texts](https://hablacultura.com/cultura-textos-aprender-espanol/) — cultural texts with audio and Portuguese glossaries for A2–C2; some full texts and activities are paid.
+7. [Memoria Chilena](https://www.memoriachilena.gob.cl/602/w3-propertyvalue-137760.html) — Chilean library collections on arts, culture and history; best for confident readers.
+8. [Señal Memoria](https://www.senalmemoria.co/) — Colombian public-media archive of stories, historical radio and TV; media and transcript availability vary.
 
 ## 📰 News & current affairs
 

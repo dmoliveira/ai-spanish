@@ -82,9 +82,11 @@ export async function renderSite(markdown, template) {
     ] };
   });
   const content = unified().use(rehypeStringify).stringify(hast);
-  if (!template.includes('<!-- SITE_NAV -->') || !template.includes('<!-- SITE_CONTENT -->')) {
+  if (!template.includes('<!-- SITE_NAV -->') || !template.includes('<!-- SITE_MOBILE_NAV -->')
+      || !template.includes('<!-- SITE_CONTENT -->')) {
     throw new Error('Site template is missing required placeholders');
   }
   return template.replace('<!-- SITE_NAV -->', () => navigation)
+    .replace('<!-- SITE_MOBILE_NAV -->', () => navigation)
     .replace('<!-- SITE_CONTENT -->', () => content);
 }
