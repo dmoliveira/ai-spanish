@@ -17,6 +17,19 @@ function textContent(node) {
   return node.type === 'text' ? node.value : (node.children ?? []).map(textContent).join('');
 }
 
+function markSpanishColumn(table) {
+  const head = table.children.find((node) => node.tagName === 'thead');
+  const row = head?.children.find((node) => node.tagName === 'tr');
+  const headers = row?.children.filter((node) => node.tagName === 'th') ?? [];
+  const index = headers.findIndex((node) => textContent(node).trim() === 'Español');
+  if (index < 0) return;
+  const body = table.children.find((node) => node.tagName === 'tbody');
+  for (const bodyRow of body?.children.filter((node) => node.tagName === 'tr') ?? []) {
+    const cells = bodyRow.children.filter((node) => node.tagName === 'td');
+    if (cells[index]) cells[index].properties.lang = 'es';
+  }
+}
+
 // The website has its own intro; the resource sections remain sourced from README.md.
 export async function renderSite(markdown, template) {
   const tree = unified().use(remarkParse).use(remarkGfm).parse(markdown);
@@ -49,6 +62,7 @@ export async function renderSite(markdown, template) {
   hast.children = hast.children.map((node) => {
     if (node.type === 'element' && ['h2', 'h3'].includes(node.tagName)) section = textContent(node);
     if (node.type !== 'element' || node.tagName !== 'table') return node;
+    markSpanishColumn(node);
     return { type: 'element', tagName: 'div', properties: {
       className: ['table-scroll'], tabIndex: 0, role: 'region', ariaLabel: `${section}: scrollable table`,
     }, children: [

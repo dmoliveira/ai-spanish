@@ -32,6 +32,16 @@
         <p class="eyebrow"><span aria-hidden="true">✳</span> A LITTLE SPANISH, EVERY DAY</p>
         <h1 id="hero-title">Your world,<br><em>en español.</em></h1>
         <p class="hero-intro">Learn the language through the stories, places and ideas you already love.</p>
+        <form class="library-search" role="search" data-resource-search hidden>
+          <label for="resource-query">Search the library</label>
+          <div class="search-input-wrap">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="resource-query" type="search" placeholder="Try podcasts, Mexico, AI..." autocomplete="off" aria-controls="resource-results" aria-describedby="resource-status">
+            <button type="button" data-search-clear>Clear</button>
+          </div>
+          <p id="resource-status" class="search-status" role="status" aria-live="polite">Find a topic, place or channel.</p>
+          <ul id="resource-results" class="search-results" aria-label="Search results" hidden></ul>
+        </form>
         <div class="hero-actions">
           <a class="button button-primary" href="#-start-here">Find your starting point <span aria-hidden="true">↗</span></a>
           <a class="button button-text" href="#-a-simple-daily-routine">Build a daily habit <span aria-hidden="true">↓</span></a>
@@ -45,7 +55,7 @@
     </section>
 
     <nav class="topic-strip" aria-label="Explore your interests">
-      <span>YOUR INTERESTS, IN SPANISH</span><a href="#-learn-spanish">🎧 LEARNING</a><a href="#-news--current-affairs">📰 NEWS</a><a href="#-travel--everyday-life">🧳 TRAVEL</a><a href="#-ai-machine-learning--technology">🤖 TECH</a><a href="#-nintendo--gaming">🎮 GAMING</a><a href="#-catholicism-philosophy--traditional-culture">🌎 CULTURE</a>
+      <span>YOUR INTERESTS, IN SPANISH</span><a href="#-learn-spanish">🎧 LEARNING</a><a href="#-news--current-affairs">📰 NEWS</a><a href="#-travel--everyday-life">🧳 TRAVEL</a><a href="#-ai-machine-learning--technology">🤖 TECH</a><a href="#-nintendo--gaming">🎮 GAMING</a><a href="#-catholicism-philosophy--traditional-culture">⛪ FAITH &amp; CULTURE</a>
     </nav>
 
     <div class="library-layout">
@@ -66,5 +76,6 @@
     <div><strong>¡Vamos!</strong><p>One day, one story, one new word at a time.</p></div>
     <div class="footer-links"><a href="https://github.com/dmoliveira/learn-spanish-immersion">View on GitHub ↗</a><a href="https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00">Support the project ↗</a></div>
   </footer>
+  <script type="module" src="search.mjs"></script>
 </body>
 </html>

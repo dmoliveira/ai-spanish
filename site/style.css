@@ -113,3 +113,21 @@ a:focus-visible, .table-scroll:focus-visible, #main-content:focus-visible { outl
   .site-footer { align-items: flex-start; flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Search is progressively enhanced; hidden until its local index is ready. */
+.library-search:not([hidden]) { max-width: 34rem; margin-top: 1.35rem; }
+.library-search label { display: block; margin-bottom: .35rem; color: #24463f; font-size: .78rem; font-weight: 750; }
+.search-input-wrap { display: flex; align-items: center; gap: .55rem; padding: .3rem .45rem .3rem .85rem; border: 1px solid #9cb6a6; border-radius: 6px; background: #fffefb; }
+.search-icon { color: #42675f; font-size: 1.4rem; line-height: 1; }
+.search-input-wrap input { flex: 1; min-width: 0; padding: .45rem 0; border: 0; outline: 0; background: transparent; color: var(--ink); font: inherit; font-size: 1rem; }
+.search-input-wrap:focus-within { outline: 3px solid #fff; outline-offset: 2px; box-shadow: 0 0 0 5px #193b3a; }
+.search-input-wrap button { padding: .4rem .6rem; border: 0; border-radius: 4px; background: #eef4ed; color: #24463f; font: inherit; font-size: .75rem; font-weight: 700; cursor: pointer; }
+.search-input-wrap button:hover { background: #dbe9dc; }
+.search-input-wrap button:focus-visible { outline: 2px solid #193b3a; outline-offset: 2px; }
+.search-status { min-height: 1.2em; margin: .35rem 0 0; color: #48635a; font-size: .76rem; }
+.search-results:not([hidden]) { max-height: 19rem; margin: .65rem 0 0; padding: .2rem .85rem; overflow-y: auto; border: 1px solid #cbdacf; border-radius: 6px; background: #fffefb; list-style: none; box-shadow: 0 8px 22px rgba(25, 59, 58, .08); }
+.search-results li { padding: .7rem 0; border-bottom: 1px solid #e6eee6; line-height: 1.4; }
+.search-results li:last-child { border-bottom: 0; }
+.search-results li a { display: block; width: fit-content; font-size: .9rem; font-weight: 750; }
+.search-result-context { display: block; margin-top: .2rem; color: #567069; font-size: .7rem; font-weight: 700; }
+.search-results li p { margin: .25rem 0 0; color: #4a645e; font-size: .78rem; }
