@@ -15,7 +15,7 @@
 [![README checks](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml/badge.svg)](https://github.com/dmoliveira/learn-spanish-immersion/actions/workflows/readme-checks.yml)
 [![Support via Stripe](https://img.shields.io/badge/support-stripe-635bff?logo=stripe&logoColor=white)](https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00)
 
-[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [Reading](#-reading--stories) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Podcasts](#-listen-on-the-go) · [Routine](#-a-simple-daily-routine)
+[Start here](#-start-here) · [Learning channels](#-learn-spanish) · [Reading](#-reading--stories) · [News](#-news--current-affairs) · [Travel](#-travel--everyday-life) · [Screen & sound](#-screen--sound) · [AI & tech](#-ai-machine-learning--technology) · [Science](#-science--discovery) · [Gaming](#-nintendo--gaming) · [Politics](#-politics--economics) · [More topics](#-more-to-explore) · [Catholicism & culture](#-catholicism-philosophy--traditional-culture) · [Practice](#-dictionaries--practice) · [Podcasts](#-listen-on-the-go) · [Routine](#-a-simple-daily-routine)
 
 </div>
 
@@ -197,6 +197,32 @@ Try changing the words in brackets and saying each phrase aloud. These use a pol
 | 4 | <span lang="es">¿Puede ayudarme?</span> | Can you help me? |
 | 5 | <span lang="es">No entiendo. ¿Puede hablar más despacio?</span> | I don't understand. Can you speak more slowly? |
 | 6 | <span lang="es">¿Aceptan tarjeta?</span> | Do you accept cards? |
+
+## 🎭 Screen & sound
+
+Stories, songs and everyday life make immersion more enjoyable. Most of these are native-speed content: use short clips, replay them, and choose Spanish subtitles when available. Playback rights, registration, captions and dubbed audio vary by title and country.
+
+### 📺 TV & series
+
+1. [Cuéntame cómo pasó](https://www.rtve.es/play/videos/cuentame-como-paso/) — RTVE's Spanish family drama across recent history; intermediate to advanced. Registration and regional availability vary.
+2. [31 minutos: complete episodes](https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL) — Chilean puppet-news comedy with songs and visual context; fast jokes make it better for intermediate listeners.
+3. [Guillermina y Candelario](https://maguare.gov.co/guillermina-y-candelario/) — Colombian children's animation about family life on the Pacific coast; visual context can help learners.
+
+### 🎞️ Films & movies
+
+1. [RTVCPlay: cine colombiano](https://www.rtvcplay.co/cine) — Colombian fiction and documentary films from public media; select Spanish-language titles, and note that some are limited outside Colombia.
+
+### 🎶 Music & performances
+
+1. [Los conciertos de Radio 3](https://www.rtve.es/play/videos/los-conciertos-de-radio-3-en-la-2/) — RTVE performances by established and emerging artists; select Spanish-language songs, as not every performance is in Spanish.
+2. [Natalia Lafourcade: Hasta la Raíz](https://www.youtube.com/watch?v=tLetf-h4Y-w) — an official lyric video by the Mexican singer-songwriter; replay a chorus and follow the on-screen words.
+3. [Jorge Drexler Oficial](https://www.youtube.com/channel/UCh9gFyjZsmt_Fz3QXO_5fVA) — music videos by the Uruguayan singer-songwriter; poetic lyrics can be challenging.
+
+### 🍲 Everyday life
+
+1. [Los puros criollos](https://www.senalcolombia.tv/general/mira-aqui-completa-cuarta-temporada-puros-criollos) — Colombian public TV explores everyday culture, including markets and food; playback may vary.
+2. [De mi Rancho a Tu Cocina](https://www.youtube.com/@DemiRanchoaTuCocina) — Doña Ángela cooks traditional Michoacán dishes at home; the visual context helps with food vocabulary.
+3. [La Ruta de la Garnacha](https://www.youtube.com/channel/UCUAQgUTv4-OiAClB1jYTPnA) — Mexican street food and markets; informal speech and background noise can be challenging.
 
 ## 🤖 AI, machine learning & technology
 
@@ -392,6 +418,9 @@ Try a short reflection or museum story, write down a few recurring words, then d
 6. [El hilo](https://elhilo.audio/) — Latin American news and context for confident listeners; episodes and transcripts are available online.
 7. [No Hay Tos](https://www.nohaytospodcast.com/about) — Mexican Spanish podcast about life and culture for intermediate learners; some episodes contain explicit language and some full transcripts may require payment.
 8. [Hoy Hablamos](https://www.hoyhablamos.com/category/podcast-aprender-espanol/) — Spanish-from-Spain podcast for intermediate and advanced learners; some recent audio is free, while the full archive, transcripts and exercises require premium.
+9. [Spanish Obsessed: beginner conversations](https://www.spanishobsessed.com/beginners-spanish/) — beginner audio with some English guidance and Colombian Spanish; free episodes, with limited free transcripts and paid materials.
+10. [Españolistos](https://www.espanolistos.com/) — Colombian teacher Andrea and learner Nate discuss culture and daily life in mostly Spanish; the collected transcript set requires a donation, while individual episode access can vary.
+11. [Chill Spanish Listening Practice](https://www.youtube.com/channel/UCJ4YHlzG7n0R9vXJar69RTA/featured) — short learner-oriented episodes about everyday topics; caption and transcript availability varies.
 
 Audio alone can be harder than video. Start with a short episode, use a transcript if available, and revisit it later without reading.
 

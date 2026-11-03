@@ -57,6 +57,40 @@ test('all page fragments resolve uniquely, including generated navigation', asyn
   assert.ok(idSet.has('-learn-spanish'));
 });
 
+test('resource tables retain native semantics and reference their current heading', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  const ids = new Set();
+  visit(page, 'element', (node) => { if (node.properties.id) ids.add(node.properties.id); });
+  const tables = elements(page, 'table');
+  assert.ok(tables.length > 5);
+  for (const table of tables) {
+    const reference = table.properties.ariaLabelledBy;
+    const id = Array.isArray(reference) ? reference[0] : reference;
+    assert.ok(id && ids.has(id), `table heading missing: ${id}`);
+    assert.ok(elements(table, 'th').length, 'native column headers are required');
+  }
+});
+
+test('multiple tables and duplicate headings retain the correct table labels', async () => {
+  const source = '# Intro\n\n## Topic\n\n| Name |\n| --- |\n| One |\n\n| Name |\n| --- |\n| Two |\n\n## Topic\n\n| Name |\n| --- |\n| Three |\n';
+  const page = parseHtml(await renderSite(source, template));
+  const references = elements(page, 'table').map((node) => {
+    const value = node.properties.ariaLabelledBy;
+    return Array.isArray(value) ? value[0] : value;
+  });
+  assert.deepEqual(references, ['topic', 'topic', 'topic-1']);
+});
+
+test('topic and search skip links lead to focusable destinations', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  const byId = new Map();
+  visit(page, 'element', (node) => { if (node.properties.id) byId.set(node.properties.id, node); });
+  for (const id of ['topic-index', 'after-search']) {
+    assert.equal(byId.get(id)?.properties.tabIndex, -1, `${id} must be focusable`);
+    assert.ok(elements(page, 'a').some((node) => node.properties.href === `#${id}`));
+  }
+});
+
 test('Spanish travel phrases declare their language in the generated table', async () => {
   const page = parseHtml(await renderSite(readme, template));
   const spanishCells = elements(page, 'td').filter((node) => node.properties.lang === 'es');
@@ -101,15 +135,18 @@ test('brief Spanish phrases are marked without changing English context', async 
 test('resource assets remain relative to a GitHub project-site path', async () => {
   const page = parseHtml(await renderSite(readme, template));
   const css = elements(page, 'link').find((node) => node.properties.rel?.includes('stylesheet'));
+  const favicon = elements(page, 'link').find((node) => node.properties.rel?.includes('icon'));
   const hero = elements(page, 'img').find((node) => node.properties.src === 'assets/hero.svg');
   const script = elements(page, 'script').find((node) => node.properties.src === 'search.mjs');
   assert.equal(css?.properties.href, 'style.css');
+  assert.equal(favicon?.properties.href, 'assets/favicon.svg');
   assert.ok(hero?.properties.alt, 'hero needs descriptive alt text');
   assert.equal(script?.properties.type, 'module');
   const base = 'https://example.test/learn-spanish-immersion/';
   assert.equal(new URL(css.properties.href, base).pathname, '/learn-spanish-immersion/style.css');
   assert.equal(new URL(hero.properties.src, base).pathname, '/learn-spanish-immersion/assets/hero.svg');
   assert.equal(new URL(script.properties.src, base).pathname, '/learn-spanish-immersion/search.mjs');
+  assert.equal(new URL(favicon.properties.href, base).pathname, '/learn-spanish-immersion/assets/favicon.svg');
   await readFile(new URL('../assets/hero.svg', import.meta.url));
   await readFile(new URL('../site/style.css', import.meta.url));
 });

@@ -69,15 +69,20 @@ export async function renderSite(markdown, template) {
 
   // A focusable scroll region keeps wide GFM tables usable on small screens.
   let section = 'Resources';
+  let sectionId = '';
   hast.children = hast.children.map((node) => {
-    if (node.type === 'element' && ['h2', 'h3'].includes(node.tagName)) section = textContent(node);
+    if (node.type === 'element' && ['h2', 'h3'].includes(node.tagName)) {
+      section = textContent(node);
+      sectionId = node.properties.id;
+    }
     if (node.type !== 'element' || node.tagName !== 'table') return node;
     markSpanishColumn(node);
+    if (sectionId) node.properties.ariaLabelledBy = [sectionId];
     return { type: 'element', tagName: 'div', properties: {
       className: ['table-scroll'], tabIndex: 0, role: 'region', ariaLabel: `${section}: scrollable table`,
     }, children: [
       { type: 'element', tagName: 'span', properties: { className: ['table-hint'], ariaHidden: 'true' },
-        children: [{ type: 'text', value: 'Scroll table →' }] },
+        children: [{ type: 'text', value: 'Scroll horizontally if needed →' }] },
       node,
     ] };
   });

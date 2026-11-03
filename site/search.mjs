@@ -137,9 +137,10 @@ export function initializeSearch(doc) {
   const article = doc.querySelector('.resource-content');
   const input = doc.querySelector('#resource-query');
   const clear = doc.querySelector('[data-search-clear]');
+  const skip = doc.querySelector('[data-search-skip]');
   const status = doc.querySelector('#resource-status');
   const list = doc.querySelector('#resource-results');
-  if (!form || !article || !input || !clear || !status || !list) return false;
+  if (!form || !article || !input || !clear || !skip || !status || !list) return false;
   const catalog = [...createGuideCatalog(article), ...createCatalog(article, doc.baseURI || 'https://example.invalid/')];
   if (!catalog.length) return false;
   let composing = false;
@@ -149,14 +150,16 @@ export function initializeSearch(doc) {
     list.replaceChildren();
     if (!query) {
       list.hidden = true;
-      status.textContent = 'Find a topic, guide, place or channel.';
+      skip.hidden = true;
+      status.textContent = "Find a topic, guide, place or channel. For page text, use your browser's Find.";
       return;
     }
     const matches = findMatches(catalog, query);
     status.textContent = matches.length
       ? `${matches.length} ${matches.length === 1 ? 'result' : 'results'} found.`
-      : 'No matching results. Try another word.';
+      : "No matching results. Try another word or use your browser's Find for page text.";
     list.hidden = !matches.length;
+    skip.hidden = !matches.length;
     const fragment = doc.createDocumentFragment();
     for (const item of matches) {
       const li = doc.createElement('li');
