@@ -152,7 +152,7 @@ test('actual generated README resources form a searchable catalog', async () => 
   assert.ok(doc.querySelector('[data-resource-search]').hasAttribute('hidden'));
   const catalog = createCatalog(doc.querySelector('.resource-content'), 'https://site.test/learn-spanish-immersion/');
   const guides = createGuideCatalog(doc.querySelector('.resource-content'));
-  assert.ok(catalog.length > 140, `unexpectedly small catalog: ${catalog.length}`);
+  assert.ok(catalog.length > 300, `unexpectedly small catalog: ${catalog.length}`);
   for (const query of ['espanol juan', 'nintendo', 'mexico travel', 'podcast', 'catholic']) {
     assert.ok(findMatches(catalog, query).length > 0, `no result for ${query}`);
   }
@@ -177,6 +177,11 @@ test('actual generated README resources form a searchable catalog', async () => 
     ['beginner podcasts', 'https://www.spanishlanguagecoach.com/beginnerspanishpodcast'],
     ['beginner podcast', 'https://coffeebreaklanguages.com/tag/cbs-season-1/'],
     ['podcast mexico', 'https://www.youtube.com/@HowtoSpanishPodcast_Official'],
+    ['espanofilos', 'https://www.espanofilos.com/'],
+    ['nintendo direct', 'https://www.youtube.com/@NintendoES'],
+    ['machine learning', 'https://cienciadedatos.net/'],
+    ['somos cine', 'https://www.rtve.es/play/videos/somos-cine/'],
+    ['mexico city', 'https://mexicocity.cdmx.gob.mx/e/'],
   ]) {
     assert.ok(findMatches(catalog, query).some((item) => item.href === expected), `missing ${expected} for ${query}`);
   }

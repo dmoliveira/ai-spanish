@@ -26,3 +26,5 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Check README anchors and local files
         run: npm run check:links
+      - name: Check resource coverage
+        run: npm run check:resources
