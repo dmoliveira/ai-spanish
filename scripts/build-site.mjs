@@ -14,6 +14,7 @@ await mkdir(resolve(output, 'assets'), { recursive: true });
 await Promise.all([
   writeFile(resolve(output, 'index.html'), html),
   copyFile(resolve(root, 'site/style.css'), resolve(output, 'style.css')),
+  copyFile(resolve(root, 'site/search.mjs'), resolve(output, 'search.mjs')),
   copyFile(resolve(root, 'assets/hero.svg'), resolve(output, 'assets/hero.svg')),
 ]);
 console.log('Built dist/index.html from README.md');

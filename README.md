@@ -70,6 +70,8 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 11. [Coffee Break Spanish](https://coffeebreaklanguages.com/coffeebreakspanish/) — guided audio lessons.
 12. [Radio Ambulante](https://radioambulante.org/) — narrative journalism and transcripts for advanced listeners.
 13. [Spanish proficiency levels: Instituto Cervantes](https://berlin.cervantes.es/es/diplomas_espanol_dele/formato_niveles_examen_dele.htm) — descriptions of DELE exams and CEFR levels A1–C2, in Spanish.
+14. [Spanish Playground: Buena Gente](https://www.spanishplayground.net/spanish-video-series-buena-gente/) — short, visually supported stories for beginners; episodes and some activities are free.
+15. [Spanish for False Beginners](https://www.spanishlanguagecoach.com/beginnerspanishpodcast) — beginner-friendly podcast from Spain; episodes and some transcripts are free, with paid courses available.
 
 ## 📰 News & current affairs
 
@@ -88,6 +90,9 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 | 7 | [Associated Press en español](https://apnews.com/hub/ap-en-espanol) | International wire reporting | Website |
 | 8 | [El País América](https://elpais.com/america/) | Latin American news and analysis | Website |
 | 9 | [VisualPolitik](https://www.youtube.com/@VisualPolitik) | Commentary on international affairs and economics | YouTube |
+| 10 | [El Faro](https://elfaro.net/) | Independent investigations from Central America | Website |
+| 11 | [OjoPúblico](https://ojo-publico.com/) | Investigations and fact-checking from Peru and Latin America; some articles require sign-in | Website |
+| 12 | [Efecto Cocuyo](https://efectococuyo.com/) | Venezuelan reporting, migration and fact-checks | Website |
 
 ### 🇲🇽 Mexico & Central America
 
@@ -140,6 +145,7 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 6. [Viajeros Callejeros](https://www.youtube.com/results?search_query=Viajeros+Callejeros+viajes+canal+oficial) — travel itineraries and practical tips. 🔎 Search link
 7. [Lugares que ver](https://www.youtube.com/results?search_query=Lugares+que+ver+viajes+canal+oficial) — destination ideas and travel guides. 🔎 Search link
 8. [Mundo Nómada](https://www.youtube.com/results?search_query=Mundo+Nomada+viajes+canal+oficial) — travel inspiration and guides. 🔎 Search link
+9. [Mariel de Viaje](https://www.youtube.com/c/MarieldeViaje) — Mexican travel vlogs and destination guides; select the original Spanish audio if a video is dubbed.
 
 ### 🗺️ Destination guides in Spanish
 
@@ -156,6 +162,20 @@ Tourism resources are useful for both planning and reading practice. Most of the
 9. [Ecuador: Ecuador Travel](https://ecuador.travel/) — destination information and inspiration.
 10. [Guatemala: Visit Guatemala](https://visitguatemala.gt/) — places, culture and experiences.
 11. [Panama: Visit Panamá](https://www.tourismpanama.com/es/) — destination ideas and planning.
+12. [Mexico: México Travel Channel](https://mexicotravelchannel.mx/) — commercial travel magazine featuring destinations, food and culture.
+
+### 💬 Useful travel phrases
+
+Try changing the words in brackets and saying each phrase aloud. These use a polite form that works in many situations.
+
+| # | Español | English |
+| --- | --- | --- |
+| 1 | <span lang="es">¿Dónde está [la estación]?</span> | Where is [the station]? |
+| 2 | <span lang="es">Quisiera [un café], por favor.</span> | I would like [a coffee], please. |
+| 3 | <span lang="es">¿Cuánto cuesta?</span> | How much does it cost? |
+| 4 | <span lang="es">¿Puede ayudarme?</span> | Can you help me? |
+| 5 | <span lang="es">No entiendo. ¿Puede hablar más despacio?</span> | I don't understand. Can you speak more slowly? |
+| 6 | <span lang="es">¿Aceptan tarjeta?</span> | Do you accept cards? |
 
 ## 🤖 AI, machine learning & technology
 
@@ -335,6 +355,9 @@ Try a short reflection or museum story, write down a few recurring words, then d
 1. [Coffee Break Spanish](https://coffeebreaklanguages.com/coffeebreakspanish/) — guided audio lessons, starting with the basics.
 2. [Notes in Spanish](https://www.notesinspanish.com/) — conversations and learning materials from Spain at several levels.
 3. [Radio Ambulante](https://radioambulante.org/) — narrative journalism from across Latin America, best for confident listeners; transcripts are available on its website.
+4. [Duolingo Spanish Podcast](https://podcast.duolingo.com/spanish) — intermediate true stories with English narration and transcripts; a free episode archive.
+5. [Charlas Hispanas](https://charlashispanas.com/) — Latin American culture, news and expressions; episodes are publicly listed, while full transcripts and exercises require premium.
+6. [El hilo](https://elhilo.audio/) — Latin American news and context for confident listeners; episodes and transcripts are available online.
 
 Audio alone can be harder than video. Start with a short episode, use a transcript if available, and revisit it later without reading.
 
@@ -350,6 +373,8 @@ Audio alone can be harder than video. Start with a short episode, use a transcri
 Use Spanish subtitles when helpful, then replay a short segment without them. On YouTube, use the **CC** button when available and the settings menu to adjust playback speed. Automatic captions can contain mistakes. Adjust the mix and speed to your level; consistency matters more than the exact timing.
 
 **Only 10 minutes?** Watch six minutes of learner-friendly Spanish, replay two minutes, then spend two minutes saying or writing what you understood. It is fine to keep the recap to a few words.
+
+To make phrases stick, use part of your recap to recall one from yesterday and use it in a new sentence. Revisit it again a week later.
 
 ### 🗓️ Your first week
 
@@ -373,7 +398,7 @@ Repeat a week or switch topics whenever you need to. This is a practice plan, no
 
 The original watchlist came from a Spanish-learning conversation and is organized here for browsing. Difficulty and topic descriptions are guides, not endorsements; creators' content and links can change. Search links are labeled, and channel handles should be checked before subscribing. If you find an outdated link or have a useful suggestion, [open an issue](https://github.com/dmoliveira/learn-spanish-immersion/issues/new).
 
-**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content. The [website](https://dmoliveira.github.io/learn-spanish-immersion/) is generated from this README; to preview changes, run `npm test` and `npm run build`, then open `dist/index.html`.
+**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content. The [website](https://dmoliveira.github.io/learn-spanish-immersion/) is generated from this README; to preview changes, run `npm test`, `npm run build`, and `python3 -m http.server --directory dist`, then visit `http://localhost:8000/`.
 
 ## 💛 Support the project
 

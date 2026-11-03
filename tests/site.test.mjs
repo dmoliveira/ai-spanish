@@ -57,15 +57,25 @@ test('all page fragments resolve uniquely, including generated navigation', asyn
   assert.ok(idSet.has('-learn-spanish'));
 });
 
+test('Spanish travel phrases declare their language in the generated table', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  const spanishCells = elements(page, 'td').filter((node) => node.properties.lang === 'es');
+  assert.ok(spanishCells.length >= 6, 'Spanish phrase cells must be marked for screen readers');
+  assert.ok(JSON.stringify(spanishCells).includes('¿Dónde está'));
+});
+
 test('resource assets remain relative to a GitHub project-site path', async () => {
   const page = parseHtml(await renderSite(readme, template));
   const css = elements(page, 'link').find((node) => node.properties.rel?.includes('stylesheet'));
   const hero = elements(page, 'img').find((node) => node.properties.src === 'assets/hero.svg');
+  const script = elements(page, 'script').find((node) => node.properties.src === 'search.mjs');
   assert.equal(css?.properties.href, 'style.css');
   assert.ok(hero?.properties.alt, 'hero needs descriptive alt text');
+  assert.equal(script?.properties.type, 'module');
   const base = 'https://example.test/learn-spanish-immersion/';
   assert.equal(new URL(css.properties.href, base).pathname, '/learn-spanish-immersion/style.css');
   assert.equal(new URL(hero.properties.src, base).pathname, '/learn-spanish-immersion/assets/hero.svg');
+  assert.equal(new URL(script.properties.src, base).pathname, '/learn-spanish-immersion/search.mjs');
   await readFile(new URL('../assets/hero.svg', import.meta.url));
   await readFile(new URL('../site/style.css', import.meta.url));
 });
@@ -74,7 +84,7 @@ test('raw HTML and unsafe Markdown URLs do not become executable markup', async 
   const source = '# Intro\n\n## Section\n\n<script>alert(1)</script>\n\n<img src=x onerror=alert(1)>\n\n[bad](javascript:alert(1))\n\n[good](https://example.com)\n';
   const html = await renderSite(source, template);
   const page = parseHtml(html);
-  assert.equal(elements(page, 'script').length, 0);
+  assert.deepEqual(elements(page, 'script').map((node) => node.properties.src), ['search.mjs']);
   assert.ok(!html.includes('onerror'));
   assert.ok(!html.includes('javascript:'));
   assert.ok(elements(page, 'a').some((node) => node.properties.href === 'https://example.com'));
