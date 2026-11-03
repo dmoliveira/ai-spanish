@@ -7,7 +7,7 @@ import { renderSite } from '../site/render.mjs';
 
 const fixture = `<!doctype html><html><body>
 <form data-resource-search hidden><label for="resource-query">Search</label><input id="resource-query">
-<button type="button" data-search-clear>Clear</button><p id="resource-status"></p><ul id="resource-results" hidden></ul></form>
+<button type="button" data-search-clear>Clear</button><p id="resource-status"></p><a data-search-skip href="#after-search" hidden>Skip search results</a><ul id="resource-results" hidden></ul></form><div id="after-search" tabindex="-1"></div>
 <article class="resource-content">
 <h2 id="-learn-spanish">📘 Learn Spanish</h2><h3>Mexico &amp; listening</h3>
 <table><tr><td><a href="https://example.org/es">Español Vivo</a> — Beginner stories in México.</td></tr>
@@ -108,6 +108,7 @@ test('search initializes progressively, renders safely, announces and clears', (
   input.value = 'espanol mexico';
   input.dispatchEvent(new Event('input'));
   assert.equal(status.textContent, '1 result found.');
+  assert.equal(document.querySelector('[data-search-skip]').hasAttribute('hidden'), false);
   assert.equal(results.querySelectorAll('li').length, 1);
   assert.equal(results.querySelector('a').textContent, 'Español Vivo');
   assert.equal(results.querySelector('a').getAttribute('href'), 'https://example.org/es');
@@ -115,6 +116,7 @@ test('search initializes progressively, renders safely, announces and clears', (
   input.dispatchEvent(new Event('input'));
   assert.equal(results.querySelectorAll('img').length, 0);
   assert.match(status.textContent, /No matching results/);
+  assert.ok(document.querySelector('[data-search-skip]').hasAttribute('hidden'));
   document.querySelector('[data-search-clear]').dispatchEvent(new Event('click'));
   assert.equal(input.value, '');
   assert.ok(results.hasAttribute('hidden'));
@@ -178,4 +180,14 @@ test('actual generated README resources form a searchable catalog', async () => 
   ]) {
     assert.ok(findMatches(catalog, query).some((item) => item.href === expected), `missing ${expected} for ${query}`);
   }
+  const music = findMatches(catalog, 'music').map((item) => item.href);
+  const film = findMatches(catalog, 'film').map((item) => item.href);
+  const movies = findMatches(catalog, 'movies').map((item) => item.href);
+  const tv = findMatches(catalog, 'tv').map((item) => item.href);
+  assert.ok(music.includes('https://www.youtube.com/watch?v=tLetf-h4Y-w'));
+  assert.ok(!music.includes('https://www.rtve.es/play/videos/cuentame-como-paso/'));
+  assert.ok(film.includes('https://www.rtvcplay.co/cine'));
+  assert.ok(!film.includes('https://www.rtve.es/play/videos/cuentame-como-paso/'));
+  assert.ok(movies.includes('https://www.rtvcplay.co/cine'));
+  assert.ok(tv.includes('https://www.rtve.es/play/videos/cuentame-como-paso/'));
 });

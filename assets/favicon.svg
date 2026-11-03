@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Spanish immersion library</title>
+  <rect width="64" height="64" rx="18" fill="#193b3a"/>
+  <path d="M15 16h34v27H31l-10 7v-7h-6z" fill="#f6c878"/>
+  <text x="32" y="36" fill="#193b3a" font-family="Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle">¡!</text>
+</svg>

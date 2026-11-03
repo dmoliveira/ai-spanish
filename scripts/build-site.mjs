@@ -16,5 +16,6 @@ await Promise.all([
   copyFile(resolve(root, 'site/style.css'), resolve(output, 'style.css')),
   copyFile(resolve(root, 'site/search.mjs'), resolve(output, 'search.mjs')),
   copyFile(resolve(root, 'assets/hero.svg'), resolve(output, 'assets/hero.svg')),
+  copyFile(resolve(root, 'assets/favicon.svg'), resolve(output, 'assets/favicon.svg')),
 ]);
 console.log('Built dist/index.html from README.md');
