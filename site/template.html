@@ -36,10 +36,10 @@
           <label for="resource-query">Search the library</label>
           <div class="search-input-wrap">
             <span class="search-icon" aria-hidden="true">⌕</span>
-            <input id="resource-query" type="search" placeholder="Try podcasts, Mexico, AI..." autocomplete="off" aria-controls="resource-results" aria-describedby="resource-status">
+            <input id="resource-query" type="search" placeholder="Try travel phrases, podcasts, AI..." autocomplete="off" aria-controls="resource-results" aria-describedby="resource-status">
             <button type="button" data-search-clear>Clear</button>
           </div>
-          <p id="resource-status" class="search-status" role="status" aria-live="polite">Find a topic, place or channel.</p>
+          <p id="resource-status" class="search-status" role="status" aria-live="polite">Find a topic, guide, place or channel.</p>
           <ul id="resource-results" class="search-results" aria-label="Search results" hidden></ul>
         </form>
         <div class="hero-actions">
@@ -63,9 +63,15 @@
         <p class="sidebar-kicker">THE IMMERSION LIBRARY</p>
         <h2>Explore by topic<span>.</span></h2>
         <p>A little curiosity goes a long way.</p>
-        <nav aria-label="Resource sections"><ul>
+        <nav class="desktop-topic-index" aria-label="Resource sections"><ul>
           <!-- SITE_NAV -->
         </ul></nav>
+        <details class="mobile-topic-index">
+          <summary>Browse all topics <span aria-hidden="true">↓</span></summary>
+          <nav aria-label="Resource sections"><ul>
+            <!-- SITE_MOBILE_NAV -->
+          </ul></nav>
+        </details>
       </aside>
       <article class="resource-content" id="main-content" tabindex="-1" aria-label="Spanish learning resources">
         <!-- SITE_CONTENT -->

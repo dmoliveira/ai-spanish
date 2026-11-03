@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { test } from 'node:test';
 import { parseHTML } from 'linkedom';
-import { createCatalog, findMatches, initializeSearch, normalize } from '../site/search.mjs';
+import { createCatalog, createGuideCatalog, findMatches, initializeSearch, normalize } from '../site/search.mjs';
 import { renderSite } from '../site/render.mjs';
 
 const fixture = `<!doctype html><html><body>
@@ -78,6 +78,25 @@ test('short acronyms use word boundaries and podcasts and exact names are discov
   assert.match(faith.match.description, /cultural heritage/);
 });
 
+test('guide search uses the rendered heading IDs and excludes footnotes and support', () => {
+  const doc = makeDocument(`<article>
+    <h2 id="-travel">🧳 Travel</h2><h3 id="-useful-travel-phrases">💬 Useful travel phrases</h3>
+    <h2 id="-routine">⏳ Daily routine</h2><h3 id="️-your-first-week">🗓️ Your first week</h3>
+    <section data-footnotes><h2 id="note">Footnotes</h2></section>
+    <h2 id="-support-the-project">Support</h2><h3 id="donate">Donate</h3>
+  </article>`);
+  const guides = createGuideCatalog(doc.querySelector('article'));
+  assert.equal(guides.length, 4);
+  for (const [query, id] of [['travel phrases', '-useful-travel-phrases'], ['daily routine', '-routine'], ['first week', '️-your-first-week']]) {
+    const match = findMatches(guides, query)[0];
+    assert.equal(match.kind, 'guide');
+    assert.equal(decodeURIComponent(match.href.slice(1)), id);
+    assert.match(match.match.context, /On this page/);
+  }
+  assert.deepEqual(findMatches(guides, 'footnotes'), []);
+  assert.deepEqual(findMatches(guides, 'donate'), []);
+});
+
 test('search initializes progressively, renders safely, announces and clears', () => {
   const { document, Event } = parseHTML(fixture);
   assert.ok(document.querySelector('form').hasAttribute('hidden'));
@@ -88,14 +107,14 @@ test('search initializes progressively, renders safely, announces and clears', (
   const results = document.querySelector('#resource-results');
   input.value = 'espanol mexico';
   input.dispatchEvent(new Event('input'));
-  assert.equal(status.textContent, '1 resource found.');
+  assert.equal(status.textContent, '1 result found.');
   assert.equal(results.querySelectorAll('li').length, 1);
   assert.equal(results.querySelector('a').textContent, 'Español Vivo');
   assert.equal(results.querySelector('a').getAttribute('href'), 'https://example.org/es');
   input.value = '<img src=x onerror=alert(1)>';
   input.dispatchEvent(new Event('input'));
   assert.equal(results.querySelectorAll('img').length, 0);
-  assert.match(status.textContent, /No matching resources/);
+  assert.match(status.textContent, /No matching results/);
   document.querySelector('[data-search-clear]').dispatchEvent(new Event('click'));
   assert.equal(input.value, '');
   assert.ok(results.hasAttribute('hidden'));
@@ -118,7 +137,7 @@ test('composition defers updates and the search form does not navigate', () => {
   input.dispatchEvent(new Event('input'));
   assert.equal(status.textContent, '');
   input.dispatchEvent(new Event('compositionend'));
-  assert.equal(status.textContent, '1 resource found.');
+  assert.equal(status.textContent, '1 result found.');
   const submit = new Event('submit', { cancelable: true });
   document.querySelector('form').dispatchEvent(submit);
   assert.equal(submit.defaultPrevented, true);
@@ -130,6 +149,7 @@ test('actual generated README resources form a searchable catalog', async () => 
   const doc = makeDocument(await renderSite(markdown, template));
   assert.ok(doc.querySelector('[data-resource-search]').hasAttribute('hidden'));
   const catalog = createCatalog(doc.querySelector('.resource-content'), 'https://site.test/learn-spanish-immersion/');
+  const guides = createGuideCatalog(doc.querySelector('.resource-content'));
   assert.ok(catalog.length > 140, `unexpectedly small catalog: ${catalog.length}`);
   for (const query of ['espanol juan', 'nintendo', 'mexico travel', 'podcast', 'catholic']) {
     assert.ok(findMatches(catalog, query).length > 0, `no result for ${query}`);
@@ -140,6 +160,9 @@ test('actual generated README resources form a searchable catalog', async () => 
     assert.ok(matches.some((item) => item.href === 'https://charlashispanas.com/'), `${query} should find Charlas Hispanas`);
   }
   assert.equal(findMatches(catalog, 'el hilo')[0].href, 'https://elhilo.audio/');
+  for (const query of ['travel phrases', 'daily routine', 'first week']) {
+    assert.equal(findMatches([...guides, ...catalog], query)[0].kind, 'guide', `${query} should find an on-page guide`);
+  }
   for (const [query, expected] of [
     ['juegos', 'https://www.youtube.com/@3DJuegos'],
     ['3djuegos', 'https://www.youtube.com/@3DJuegos'],

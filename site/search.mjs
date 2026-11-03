@@ -87,6 +87,29 @@ export function createCatalog(article, baseUrl) {
   return [...byUrl.values()];
 }
 
+// Guide results point to the actual rendered IDs rather than recomputing Markdown slugs.
+export function createGuideCatalog(article) {
+  const guides = [];
+  let section = '';
+  let include = false;
+  for (const node of article.querySelectorAll('h2[id], h3[id]')) {
+    if (node.closest('[data-footnotes]')) continue;
+    const label = tidy(node.textContent);
+    if (node.tagName === 'H2') {
+      section = label;
+      include = !NON_RESOURCE_SECTIONS.has(node.id);
+    }
+    if (!include || !label || !node.id) continue;
+    const context = node.tagName === 'H2' ? 'On this page' : `On this page · ${section}`;
+    guides.push({
+      href: `#${encodeURIComponent(node.id)}`,
+      kind: 'guide',
+      occurrences: [{ label, context, description: '', terms: words([label, section].join(' ')) }],
+    });
+  }
+  return guides;
+}
+
 export function findMatches(catalog, query) {
   const queryTokens = tokens(query);
   if (!queryTokens.length) return [];
@@ -117,7 +140,7 @@ export function initializeSearch(doc) {
   const status = doc.querySelector('#resource-status');
   const list = doc.querySelector('#resource-results');
   if (!form || !article || !input || !clear || !status || !list) return false;
-  const catalog = createCatalog(article, doc.baseURI || 'https://example.invalid/');
+  const catalog = [...createGuideCatalog(article), ...createCatalog(article, doc.baseURI || 'https://example.invalid/')];
   if (!catalog.length) return false;
   let composing = false;
 
@@ -126,13 +149,13 @@ export function initializeSearch(doc) {
     list.replaceChildren();
     if (!query) {
       list.hidden = true;
-      status.textContent = 'Find a topic, place or channel.';
+      status.textContent = 'Find a topic, guide, place or channel.';
       return;
     }
     const matches = findMatches(catalog, query);
     status.textContent = matches.length
-      ? `${matches.length} ${matches.length === 1 ? 'resource' : 'resources'} found.`
-      : 'No matching resources. Try another word.';
+      ? `${matches.length} ${matches.length === 1 ? 'result' : 'results'} found.`
+      : 'No matching results. Try another word.';
     list.hidden = !matches.length;
     const fragment = doc.createDocumentFragment();
     for (const item of matches) {
