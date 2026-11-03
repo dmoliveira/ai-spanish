@@ -64,6 +64,27 @@ test('Spanish travel phrases declare their language in the generated table', asy
   assert.ok(JSON.stringify(spanishCells).includes('¿Dónde está'));
 });
 
+test('starter choices are numbered, linkable and do not require a table', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  const articles = elements(page, 'article').filter((node) => node.properties.id === 'main-content');
+  assert.equal(articles.length, 1);
+  const children = articles[0].children.filter((node) => node.type === 'element');
+  assert.equal(children[0].properties.id, '-start-here');
+  assert.equal(children[1].tagName, 'p');
+  assert.equal(children[2].tagName, 'ol');
+  assert.equal(children[2].children.filter((node) => node.tagName === 'li').length, 4);
+  const links = elements(children[2], 'a').map((node) => node.properties.href);
+  assert.ok(links.includes('https://www.youtube.com/@DreamingSpanish'));
+  assert.ok(links.includes('https://coffeebreaklanguages.com/tag/cbs-season-1/'));
+});
+
+test('brief Spanish phrases are marked without changing English context', async () => {
+  const page = parseHtml(await renderSite(readme, template));
+  assert.ok(elements(page, 'em').some((node) => node.properties.lang === 'es' && JSON.stringify(node).includes('en español')));
+  assert.ok(elements(page, 'strong').some((node) => node.properties.lang === 'es' && JSON.stringify(node).includes('¡Vamos!')));
+  assert.ok(elements(page, 'span').some((node) => node.properties.lang === 'es' && JSON.stringify(node).includes('¡Vamos!')));
+});
+
 test('resource assets remain relative to a GitHub project-site path', async () => {
   const page = parseHtml(await renderSite(readme, template));
   const css = elements(page, 'link').find((node) => node.properties.rel?.includes('stylesheet'));
