@@ -60,6 +60,27 @@ test('single-link excerpts stay grammatical and table ordinals do not damage res
   assert.equal(games.match.description, 'News and reviews.');
 });
 
+test('explicit companion channels retain searchable descriptions without mixing unrelated links', () => {
+  const doc = makeDocument(`<article>
+    <h2 id="-learn">Learn</h2><ol>
+      <li><a href="https://example.org/podcast">Example Podcast</a> — beginner conversations. · <a href="https://www.youtube.com/@example">YouTube: Example Podcast</a></li>
+      <li><a href="https://example.org/first">First</a> and <a href="https://www.youtube.com/@other">Other</a> — unrelated items.</li>
+      <li><a href="https://example.org/site">Site</a> and <a href="https://example.org/fake">YouTube: fake</a> — unrelated items.</li>
+    </ol><table><tr><td>1</td><td><a href="https://example.org/news">Example News</a> · <a href="https://www.youtube.com/channel/ABC">YouTube: Example News</a></td><td>Mexican and international news</td><td>Website + YouTube</td></tr></table>
+  </article>`);
+  const catalog = createCatalog(doc.querySelector('article'), 'https://site.test/');
+  for (const href of ['https://example.org/podcast', 'https://www.youtube.com/@example']) {
+    const match = findMatches(catalog, 'beginner conversations').find((item) => item.href === href);
+    assert.ok(match, `missing description for ${href}`);
+    assert.ok(!match.match.description.includes('YouTube: Example Podcast'));
+    assert.ok(!match.match.description.endsWith('·'));
+  }
+  for (const href of ['https://example.org/news', 'https://www.youtube.com/channel/ABC']) {
+    assert.ok(findMatches(catalog, 'mexican international news').some((item) => item.href === href));
+  }
+  assert.deepEqual(findMatches(catalog, 'unrelated items'), []);
+});
+
 test('short acronyms use word boundaries and podcasts and exact names are discoverable', () => {
   const doc = makeDocument(`<article>
     <h2 id="-ai">🤖 AI &amp; technology</h2><ol><li><a href="https://example.org/ai">Dot CSV</a> — machine learning.</li></ol>
@@ -174,8 +195,11 @@ test('actual generated README resources form a searchable catalog', async () => 
     ['ciencia', 'https://www.youtube.com/@CdeCiencia'],
     ['cdeciencia', 'https://www.youtube.com/@CdeCiencia'],
     ['beginner podcast', 'https://www.spanishlanguagecoach.com/beginnerspanishpodcast'],
+    ['beginner podcast', 'https://www.youtube.com/channel/UCs6j7INyHM8r4N-eHenbkBQ'],
     ['beginner podcasts', 'https://www.spanishlanguagecoach.com/beginnerspanishpodcast'],
     ['beginner podcast', 'https://coffeebreaklanguages.com/tag/cbs-season-1/'],
+    ['mexican international news', 'https://www.nmas.com.mx/'],
+    ['mexican international news', 'https://www.youtube.com/channel/UCUsm-fannqOY02PNN67C0KA'],
     ['podcast mexico', 'https://www.youtube.com/@HowtoSpanishPodcast_Official'],
     ['espanofilos', 'https://www.espanofilos.com/'],
     ['nintendo direct', 'https://www.youtube.com/@NintendoES'],
