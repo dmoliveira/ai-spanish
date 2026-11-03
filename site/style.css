@@ -70,6 +70,8 @@ a:focus-visible, .table-scroll:focus-visible, #main-content:focus-visible { outl
 .resource-content ol, .resource-content ul { padding-left: 1.55rem; }
 .resource-content li { margin: .48rem 0; padding-left: .2rem; color: #425e58; }
 .resource-content li::marker { color: #b3573c; font-weight: 700; }
+.resource-content > h2:first-child + p + ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; padding: 0; list-style-position: inside; }
+.resource-content > h2:first-child + p + ol > li { margin: 0; padding: 1rem; border: 1px solid #dfe9df; border-radius: 6px; background: #f8fbf6; }
 .resource-content li a, .resource-content td a { font-weight: 700; }
 .resource-content hr { border: 0; border-top: 1px solid var(--line); margin-top: 2rem; }
 .resource-content code { padding: .1em .3em; border-radius: 3px; background: #edf2eb; font-size: .88em; }
@@ -108,6 +110,7 @@ a:focus-visible, .table-scroll:focus-visible, #main-content:focus-visible { outl
   .topic-strip { justify-content: flex-start; gap: .65rem 1rem; }
   .topic-strip span:first-child { flex-basis: 100%; }
   .resource-content { padding: 1.3rem; }
+  .resource-content > h2:first-child + p + ol { grid-template-columns: 1fr; }
   .table-scroll table { min-width: 34rem; }
   .table-hint { display: block; position: sticky; left: 0; width: max-content; padding: .35rem .75rem; color: #365950; font-size: .72rem; font-weight: 700; }
   .site-footer { align-items: flex-start; flex-direction: column; }

@@ -37,12 +37,27 @@ test('catalog deduplicates URLs and preserves independent resource contexts', ()
   assert.deepEqual(findMatches(catalog, 'MEXICO espanol').map((item) => item.href), ['https://example.org/es']);
   assert.deepEqual(findMatches(catalog, 'travel ESPAÑOL').map((item) => item.href), ['https://example.org/es']);
   assert.deepEqual(findMatches(catalog, 'alpha').map((item) => item.href), ['https://example.org/a']);
+  assert.deepEqual(findMatches(catalog, 'alpha beta'), []);
+  assert.deepEqual(findMatches(catalog, 'beginner travel'), []);
   assert.deepEqual(findMatches(catalog, '  '), []);
   assert.deepEqual(findMatches(catalog, 'no-such-word'), []);
   assert.ok(!catalog.some((item) => item.href.includes('/pay') || item.href.includes('/note')));
   const travelMatch = findMatches(catalog, 'travel espanol')[0];
   assert.match(travelMatch.match.context, /Travel/);
   assert.match(travelMatch.match.description, /Travel videos/);
+});
+
+test('single-link excerpts stay grammatical and table ordinals do not damage resource names', () => {
+  const doc = makeDocument(`<article>
+    <h2 id="-learn">Learn</h2><ol><li>Choose a beginner <strong>video</strong> on <a href="https://example.org/dream">Dreaming Spanish</a>; use pictures.</li></ol>
+    <table><tr><td>6</td><td><a href="https://example.org/games">3DJuegos</a></td><td>News and reviews.</td></tr></table>
+  </article>`);
+  const catalog = createCatalog(doc.querySelector('article'), 'https://site.test/');
+  const beginner = findMatches(catalog, 'beginner video')[0];
+  assert.equal(beginner.match.description, 'Choose a beginner video on Dreaming Spanish; use pictures.');
+  const games = findMatches(catalog, '3djuegos')[0];
+  assert.equal(games.match.label, '3DJuegos');
+  assert.equal(games.match.description, 'News and reviews.');
 });
 
 test('short acronyms use word boundaries and podcasts and exact names are discoverable', () => {
@@ -135,6 +150,8 @@ test('actual generated README resources form a searchable catalog', async () => 
     ['cdeciencia', 'https://www.youtube.com/@CdeCiencia'],
     ['beginner podcast', 'https://www.spanishlanguagecoach.com/beginnerspanishpodcast'],
     ['beginner podcasts', 'https://www.spanishlanguagecoach.com/beginnerspanishpodcast'],
+    ['beginner podcast', 'https://coffeebreaklanguages.com/tag/cbs-season-1/'],
+    ['podcast mexico', 'https://www.youtube.com/@HowtoSpanishPodcast_Official'],
   ]) {
     assert.ok(findMatches(catalog, query).some((item) => item.href === expected), `missing ${expected} for ${query}`);
   }

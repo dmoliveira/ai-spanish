@@ -51,6 +51,16 @@ export async function renderSite(markdown, template) {
         && typeof props.href === 'string' && props.href.startsWith('#user-content-')) {
       props.href = `#user-content-${props.href.slice(1)}`;
     }
+    if (node.tagName === 'p') {
+      node.children = node.children.flatMap((child) => {
+        if (child.type !== 'text' || !child.value.includes('¡Vamos!')) return [child];
+        const parts = child.value.split('¡Vamos!');
+        return parts.flatMap((part, index) => index === 0
+          ? [{ type: 'text', value: part }]
+          : [{ type: 'element', tagName: 'span', properties: { lang: 'es' },
+            children: [{ type: 'text', value: '¡Vamos!' }] }, { type: 'text', value: part }]);
+      });
+    }
   });
   const sections = hast.children.filter((node) => node.type === 'element' && node.tagName === 'h2');
   const navigation = sections.map((node) =>

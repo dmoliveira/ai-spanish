@@ -23,11 +23,10 @@
 
 Pick **one learning channel and one topic you enjoy**. Start with material you mostly understand, turn on Spanish subtitles when useful, and repeat short phrases aloud. Difficulty labels below are approximate: individual videos and speakers vary.
 
-| Your starting point | Try this |
-| --- | --- |
-| 🌱 New to Spanish | Choose a beginner video on [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish); use pictures and context to follow along. |
-| 🌿 Building confidence | Try [Easy Spanish](https://www.youtube.com/@EasySpanish) or [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official); replay a short exchange and repeat it aloud. |
-| 🌳 Ready for native content | Pick a story from [BBC News Mundo](https://www.youtube.com/@BBCMundo) or a video about a favorite interest, then summarize it in Spanish. |
+1. 🌱 **New to Spanish?** Choose a beginner video on [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish); use pictures and context to follow along.
+2. 🎧 **Prefer audio?** Start with the free beginner podcast [Coffee Break Spanish: Level 1](https://coffeebreaklanguages.com/tag/cbs-season-1/); optional extras are paid.
+3. 🌿 **Building confidence?** Try [Easy Spanish](https://www.youtube.com/@EasySpanish) or [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official); replay a short exchange and repeat it aloud.
+4. 🌳 **Ready for native content?** Pick a story from [BBC News Mundo](https://www.youtube.com/@BBCMundo) or a video about a favorite interest, then summarize it in Spanish.
 
 Mix accents as your listening grows: this list includes voices from Spain, Mexico, Colombia, Argentina and elsewhere. Most links are free to visit; individual creators may offer paid extras, and availability or subtitles can vary.
 
@@ -42,7 +41,7 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 | 1 | [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish) | Immersive stories and conversations at different levels | Beginner–advanced |
 | 2 | [Easy Spanish](https://www.youtube.com/@EasySpanish) | Street interviews and everyday expressions, often with subtitles | Intermediate |
 | 3 | [Spanish After Hours](https://www.youtube.com/@SpanishAfterHours) | Relaxed, comprehensible stories and daily activities | Beginner–intermediate · Spain |
-| 4 | [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official) | Conversations about Mexican life and culture | Intermediate · Mexico |
+| 4 | [How to Spanish](https://www.youtube.com/@HowtoSpanishPodcast_Official) | Mexican Spanish podcast and conversations about life and culture | Intermediate · Mexico |
 
 ### 📺 More learning channels
 
@@ -146,12 +145,13 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 7. [Lugares que ver](https://www.youtube.com/results?search_query=Lugares+que+ver+viajes+canal+oficial) — destination ideas and travel guides. 🔎 Search link
 8. [Mundo Nómada](https://www.youtube.com/results?search_query=Mundo+Nomada+viajes+canal+oficial) — travel inspiration and guides. 🔎 Search link
 9. [Mariel de Viaje](https://www.youtube.com/c/MarieldeViaje) — Mexican travel vlogs and destination guides; select the original Spanish audio if a video is dubbed.
+10. [RTVE: Españoles en el mundo](https://www.rtve.es/play/videos/espanoles-en-el-mundo/) — travel stories with Spaniards living abroad; playback availability can vary by region.
 
 ### 🗺️ Destination guides in Spanish
 
-Tourism resources are useful for both planning and reading practice. Most of the links below are official tourism portals; España Fascinante is an independent cultural magazine. Check opening hours, entry rules and safety advice directly before traveling.
+Tourism resources are useful for both planning and reading practice. Most of the links below are official tourism portals; independent or commercial magazines are identified. Check opening hours, entry rules and safety advice directly before traveling.
 
-1. [Spain: España Fascinante](https://espanafascinante.com/) — destinations, food and culture.
+1. [Spain: España Fascinante](https://espanafascinante.com/) — independent cultural magazine about destinations, food and culture.
 2. [Spain: Spain.info](https://www.spain.info/es/) — official tourism portal and itineraries.
 3. [Colombia: Colombia Travel](https://colombia.travel/es) — destination and travel ideas.
 4. [Argentina: Argentina Travel](https://www.argentina.travel/es) — official travel inspiration.
@@ -163,6 +163,7 @@ Tourism resources are useful for both planning and reading practice. Most of the
 10. [Guatemala: Visit Guatemala](https://visitguatemala.gt/) — places, culture and experiences.
 11. [Panama: Visit Panamá](https://www.tourismpanama.com/es/) — destination ideas and planning.
 12. [Mexico: México Travel Channel](https://mexicotravelchannel.mx/) — commercial travel magazine featuring destinations, food and culture.
+13. [Mexico: México Desconocido](https://www.mexicodesconocido.com.mx/) — commercial travel and culture magazine with destinations, food and traditions.
 
 ### 💬 Useful travel phrases
 
@@ -192,6 +193,9 @@ Try changing the words in brackets and saying each phrase aloud. These use a pol
 | 9 | [Jon Hernández](https://www.youtube.com/@la_inteligencia_artificial) | AI news and business applications |
 | 10 | [Ringa Tech](https://www.youtube.com/@RingaTech) | Python and machine learning |
 | 11 | [Fazt](https://www.youtube.com/@FaztTech) | Software development and coding |
+| 12 | [SomosNLP: NLP de 0 a 100](https://somosnlp.org/nlp-de-cero-a-cien) | Free Spanish-language NLP course; 2021 recordings are useful foundations, not current AI news |
+| 13 | [Loop Infinito](https://www.xataka.com/xataka/loop-infinito-podcast-diario-xataka-tecnologia) | Xataka's technology-analysis podcast, including AI and the industry |
+| 14 | [Pocho Costa: AI agents](https://pochocosta.com/podcast/como-se-arma-un-agente-de-ia-sin-programar/) | Argentine podcast episode and article about AI agents; promotes the host's training business |
 
 ## 🔬 Science & discovery
 
@@ -208,6 +212,9 @@ Try changing the words in brackets and saying each phrase aloud. These use a pol
 4. [elrubiusOMG](https://www.youtube.com/@elrubiusOMG) — gaming and entertainment.
 5. [BaityBait](https://www.youtube.com/@SrBaityBait) — gaming commentary and analysis.
 6. [3DJuegos](https://www.youtube.com/@3DJuegos) — video game news and reviews.
+7. [Iwata pregunta: Super Mario](https://www.nintendo.com/es-es/Iwata-pregunta/25-aniversario-de-Super-Mario-Bros-/Volumen-5-Los-desarrolladores-del-primer-Super-Mario/1-Utilizar-la-cruceta-para-saltar/1-Utilizar-la-cruceta-para-saltar-212727.html) — Nintendo's Spanish interview with the original game developers.
+8. [A Link to the Podcast](https://alinktothepodcast.com/) — Spanish Nintendo podcast with interviews, indie games and retro segments.
+9. [RetroManiac](https://www.retromaniacmagazine.com/) — Spanish retro-gaming articles, interviews and podcasts.
 
 ## 🏛 Politics & economics
 
@@ -219,6 +226,7 @@ Explore political vocabulary across perspectives. These are approximate, context
 2. [Jacobín América Latina](https://jacobinlat.com/) — socialist analysis and essays · Latin America. Website
 3. [Democracy Now! en español](https://www.democracynow.org/es) — independent progressive news and interviews · US and international. Website
 4. [CTXT](https://ctxt.es/) — left-leaning political and cultural commentary · Spain. Website
+5. [El Salto](https://www.elsaltodiario.com/) — Spanish cooperative publication with reporting and left-wing commentary; some content is members-only. Website
 
 ### ⚪ Center & broadly varied perspectives
 
@@ -229,6 +237,7 @@ These sources do not necessarily identify as centrist: they offer a range of rep
 3. [France 24 en Español](https://www.france24.com/es/) — international reporting and debate.
 4. [El País](https://elpais.com/) — center-left-leaning Spanish newspaper with news and opinion.
 5. [VisualPolitik](https://www.youtube.com/@VisualPolitik) — international affairs and economics commentary; not a neutral news wire.
+6. [Chequeado](https://chequeado.com/) — Argentine fact-checking and explanatory journalism; inspect its sources and methodology. Website
 
 ### 🔵 Right, liberal & libertarian perspectives
 
@@ -239,6 +248,7 @@ These sources do not necessarily identify as centrist: they offer a range of rep
 5. [Tipito Enojado](https://www.youtube.com/results?search_query=Tipito+Enojado+oficial) — libertarian commentary and satire · Argentina. 🔎 Search link
 6. [Fundación para el Progreso](https://www.youtube.com/results?search_query=Fundacion+para+el+Progreso+Chile) — classical liberal ideas · Chile. 🔎 Search link
 7. [Negocios TV](https://www.youtube.com/results?search_query=Negocios+TV+oficial) — markets and interviews · Spain. 🔎 Search link
+8. [ABC](https://www.abc.es/) — Spanish newspaper with a historically conservative editorial outlook; some articles require a subscription. Website
 
 Search links are intentionally labeled: choose the official channel from the results. Political labels vary by country, issue and over time.
 
@@ -325,12 +335,14 @@ A mix of Catholic teaching, news, philosophy and cultural traditions. These sour
 7. [Rome Reports en español](https://www.romereports.com/) — reporting on the Vatican and Catholic Church.
 8. [Alfa y Omega](https://alfayomega.es/) — Spanish Catholic weekly and cultural coverage.
 
-### 📖 Faith & primary sources
+### 📖 Faith, primary sources & prayer
 
 1. [Santa Sede en español](https://www.vatican.va/content/vatican/es.html) — official Vatican texts and documents.
 2. [Catecismo de la Iglesia Católica](https://www.vatican.va/archive/catechism_sp/index_sp.html) — Spanish edition of the catechism.
 3. [Biblia de la Conferencia Episcopal Española](https://www.conferenciaepiscopal.es/biblia/) — Spanish Bible text.
 4. [Ciudad Redonda](https://www.ciudadredonda.org/) — daily readings, reflections and prayer resources.
+5. [Rezandovoy](https://www.rezandovoy.org/) — free Jesuit guided prayer with scripture and music.
+6. [Dominicos: Evangelio del día](https://www.dominicos.org/predicacion/evangelio-del-dia/hoy/) — daily scripture readings, written reflections and video.
 
 ### 🏛️ Philosophy, history & cultural heritage
 
@@ -358,6 +370,8 @@ Try a short reflection or museum story, write down a few recurring words, then d
 4. [Duolingo Spanish Podcast](https://podcast.duolingo.com/spanish) — intermediate true stories with English narration and transcripts; a free episode archive.
 5. [Charlas Hispanas](https://charlashispanas.com/) — Latin American culture, news and expressions; episodes are publicly listed, while full transcripts and exercises require premium.
 6. [El hilo](https://elhilo.audio/) — Latin American news and context for confident listeners; episodes and transcripts are available online.
+7. [No Hay Tos](https://www.nohaytospodcast.com/about) — Mexican Spanish podcast about life and culture for intermediate learners; some episodes contain explicit language and some full transcripts may require payment.
+8. [Hoy Hablamos](https://www.hoyhablamos.com/category/podcast-aprender-espanol/) — Spanish-from-Spain podcast for intermediate and advanced learners; some recent audio is free, while the full archive, transcripts and exercises require premium.
 
 Audio alone can be harder than video. Start with a short episode, use a transcript if available, and revisit it later without reading.
 
@@ -406,4 +420,4 @@ This resource hub is free to use. If it helps your learning, you can support mai
 
 ---
 
-Made for curious learners. ¡Vamos! 🌟
+Made for curious learners. <span lang="es">¡Vamos!</span> 🌟

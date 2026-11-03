@@ -29,6 +29,23 @@ function hasWord(haystack, token) {
   return haystack.some((word) => token.length <= 2 ? word === token : word.startsWith(token));
 }
 
+function describe(container, label) {
+  if (!container || container.querySelectorAll('a[href]').length !== 1) return '';
+  let description = '';
+  if (container.tagName === 'TR') {
+    const cells = [...container.children].filter((child) => child.tagName === 'TD');
+    if (cells.length > 1 && /^\d+$/.test(tidy(cells[0].textContent))) cells.shift();
+    description = cells.map((cell) => tidy(cell.textContent)).filter(Boolean).join(' — ');
+  } else {
+    description = tidy(container.textContent);
+  }
+  if (description === label) return '';
+  if (description.startsWith(label) && /^[\s—–:·,.;!?]/u.test(description.slice(label.length))) {
+    description = description.slice(label.length).replace(/^[\s—–:·,.;!?]+/u, '');
+  }
+  return description;
+}
+
 // The rendered README is the catalog: no duplicated resource list or network request.
 export function createCatalog(article, baseUrl) {
   const byUrl = new Map();
@@ -58,12 +75,7 @@ export function createCatalog(article, baseUrl) {
     if (!['http:', 'https:'].includes(url.protocol)) continue;
 
     const container = node.closest('tr, li, p');
-    let description = '';
-    if (container && container.querySelectorAll('a[href]').length === 1) {
-      const copy = container.cloneNode(true);
-      copy.querySelectorAll('a').forEach((link) => link.remove());
-      description = tidy(copy.textContent).replace(/^\d+\s*/, '').replace(/^[—–:·\s]+/, '');
-    }
+    const description = describe(container, label);
     const context = [section, subsection].filter(Boolean).join(' · ');
     const record = byUrl.get(url.href) ?? { href: url.href, labels: [], contexts: [], descriptions: [], occurrences: [] };
     addUnique(record.labels, label);
