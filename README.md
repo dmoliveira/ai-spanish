@@ -30,6 +30,8 @@ Pick **one learning channel and one topic you enjoy**. Start with material you m
 
 Mix accents as your listening grows: this list includes voices from Spain, Mexico, Colombia, Argentina and elsewhere. Most links are free to visit; individual creators may offer paid extras, and availability or subtitles can vary.
 
+Each main topic has **30 or more direct resources**, organized by interest or format. Some useful resources appear in more than one topic; labeled search links are extra pointers, not part of the count.
+
 **First five** (news and AI are more challenging for beginners): [Dreaming Spanish](https://www.youtube.com/@DreamingSpanish) · [Easy Spanish](https://www.youtube.com/@EasySpanish) · [BBC News Mundo](https://www.youtube.com/@BBCMundo) · [Luisito Comunica](https://www.youtube.com/@luisitocomunica) · [Dot CSV](https://www.youtube.com/@DotCSV)
 
 > 💡 Portuguese speakers may recognize a lot of vocabulary. Pay special attention to pronunciation, listening, and false friends rather than assuming familiar-looking words mean the same thing.
@@ -72,6 +74,12 @@ Mix accents as your listening grows: this list includes voices from Spain, Mexic
 14. [Spanish Playground: Buena Gente](https://www.spanishplayground.net/spanish-video-series-buena-gente/) — short, visually supported stories for beginners; episodes and some activities are free.
 15. [Spanish for False Beginners](https://www.spanishlanguagecoach.com/beginnerspanishpodcast) — beginner-friendly podcast from Spain; episodes and some transcripts are free, with paid courses available.
 
+### 🧩 More learner practice
+
+1. [Spanish Listening](https://www.spanishlistening.org/) — level-filtered clips with speakers from many Spanish-speaking countries; sample lessons include transcripts and quizzes.
+2. [Aprender Español](https://www.aprenderespanol.org/) — ad-supported grammar, vocabulary, listening and reading exercises.
+3. [UT Austin: Spanish Proficiency Exercises](https://www.laits.utexas.edu/spe/) — university interviews with regional speakers, transcripts and vocabulary; some older media may need a compatible player.
+
 ### 🇧🇷 Resources for Portuguese speakers
 
 Spanish and Portuguese share many words, but similar-looking words can have different or overlapping meanings. Check the context and region before assuming a translation.
@@ -83,14 +91,44 @@ Spanish and Portuguese share many words, but similar-looking words can have diff
 
 Choose a short text that interests you. Read once for the main idea, listen if audio is available, and note a useful phrase rather than translating every word. Levels are approximate.
 
+### 🌱 Learner texts & graded stories
+
 1. [VideoEle: A1 videos](https://videoele.com/menu-A1.html) — beginner videos with Spanish subtitles, transcript PDFs and activities; free resources extend to B2.
 2. [SpanishBOOM: texts with audio](https://spanishboom.com/spanish-texts-with-audio/) — short beginner-friendly texts, audio and English translations; the site also sells courses.
 3. [The Spanish Experiment: stories](https://www.thespanishexperiment.com/stories) — familiar children's stories with Spanish narration, text and English translation; stories are not CEFR-graded.
 4. [Lingua.com: Spanish reading](https://lingua.com/spanish/reading/) — graded texts and comprehension questions from A1; some readings are free, while most texts and some audio require premium.
 5. [Trayectos](https://trayectosoer.org/) — free university-supported novice curriculum with online and PDF textbooks and cultural media.
 6. [HablaCultura: learner texts](https://hablacultura.com/cultura-textos-aprender-espanol/) — cultural texts with audio and Portuguese glossaries for A2–C2; some full texts and activities are paid.
-7. [Memoria Chilena](https://www.memoriachilena.gob.cl/602/w3-propertyvalue-137760.html) — Chilean library collections on arts, culture and history; best for confident readers.
-8. [Señal Memoria](https://www.senalmemoria.co/) — Colombian public-media archive of stories, historical radio and TV; media and transcript availability vary.
+7. [Storybooks Canada: español](https://www.storybookscanada.ca/stories/es/) — illustrated stories with narration and PDFs; the site's five reading levels are not CEFR ratings.
+8. [LIDA Stories Canada: español](https://lidastories.net/canada/stories/es/) — illustrated stories about adult daily life, with narration and PDFs; levels are site-specific.
+9. [Wilbooks: libros gratis en español](https://www.wilbooks.com/free-spanish-online-books) — short illustrated readers grouped by school grade; print books and memberships are sold.
+10. [Spanish Learning Lab: reading worksheets](https://www.spanishlearninglab.com/category/spanish-worksheets/spanish-reading-worksheets/) — short learner passages and comprehension exercises.
+11. [Spanish Playground: reading](https://www.spanishplayground.net/spanish-reading-kids/) — printable books and activities for learners; linked resources and access vary.
+12. [Hola Qué Pasa: easy Spanish news](https://holaquepasa.com/news-in-easy-spanish/) — learner-oriented news texts with vocabulary support and selected audio; cross-check news claims.
+
+### 📚 Children's stories & collections
+
+1. [Tripulantes de la lectura](https://tripulantes.sep.gob.mx/) — Mexico's illustrated children's reading library, organized by reading age.
+2. [Maguaré: Leer](https://maguare.gov.co/leer/) — Colombian illustrated children's stories, PDFs and multimedia; formats vary.
+3. [Biblioteca Digital ILCE](https://bibliotecadigital.ilce.edu.mx/) — children's collections and classics; formats and rights vary by title.
+4. [CONALITEG: libros de primaria](https://libros.conaliteg.gob.mx/primaria.html) — Mexico's free schoolbooks and illustrated reading materials; the online reader may vary by device.
+5. [Chile para Niños](https://www.chileparaninos.gob.cl/639/w3-channel.html) — Chile's National Library offers folktales, stories and cultural readings for children.
+6. [International Children's Digital Library: español](https://www.childrenslibrary.org/library/lang18.html) — scanned children's books in a page-image reader; check each work's usage terms.
+7. [Mundo Primaria: cuentos](https://www.mundoprimaria.com/cuentos-infantiles-cortos) — adapted classics and children's stories, some with narration; the site also sells products.
+8. [Cuentos para Dormir](https://cuentosparadormir.com/) — original and traditional values-oriented stories; extra downloads are offered through membership.
+9. [Cuentos Cortos](https://www.cuentoscortos.com/) — readable original and classic children's stories.
+10. [Bosque de Fantasías: cuentos](https://www.bosquedefantasias.com/cuentos-infantiles-cortos) — original illustrated children's stories; advertising and copyright apply.
+
+### 🏛️ Libraries, heritage & classics
+
+1. [Memoria Chilena](https://www.memoriachilena.gob.cl/602/w3-propertyvalue-137760.html) — Chilean library collections on arts, culture and history; best for confident readers.
+2. [Señal Memoria](https://www.senalmemoria.co/) — Colombian public-media archive of stories, historical radio and TV; media and transcript availability vary.
+3. [El Libro Total](https://www.ellibrototal.com/) — digital classics and audiobooks; availability and playback vary by title.
+4. [Biblioteca Nacional Digital de Colombia: sala de lectura](https://www.bibliotecanacionaldigital.gov.co/col-sala-lectura) — Colombian digital publications; individual titles and interfaces vary.
+5. [Biblioteca Pública Digital de Chile](https://www.bibliotecaspublicas.gob.cl/biblioteca-publica-digital) — ebooks and audiobooks; free loans require registration and eligible Chilean residency or nationality.
+6. [Project Gutenberg: español](https://www.gutenberg.org/browse/languages/es) — free Spanish-language classics for reading or download; copyright rules vary by country.
+7. [Wikisource en español](https://es.wikisource.org/wiki/Portada) — community-maintained literary and historical texts; check the edition and rights of each work.
+8. [Ciudad Seva: cuentos por autor](https://ciudadseva.com/biblioteca/indice-autor-cuentos/) — a library of short fiction by Latin American and international authors; rights vary by work.
 
 ## 📰 News & current affairs
 
@@ -145,6 +183,16 @@ Choose a mix of countries and formats to hear different accents. Native-speed re
 
 💡 **Practice tip:** Compare the same headline across two outlets or countries. Separate reporting from opinion, check dates and sources, and listen for the different words and accents used.
 
+### 🔎 More regional reporting & fact-checking
+
+1. [Agencia EFE](https://efe.com/) — Spanish-language international news agency.
+2. [Primicias](https://www.primicias.ec/) — Ecuadorian reporting and investigations.
+3. [la diaria](https://ladiaria.com.uy/) — Uruguayan news, culture and radio; subscriptions are offered.
+4. [El Surti](https://elsurti.com/) — Paraguayan journalism and explainers.
+5. [Servindi](https://www.servindi.org/) — Peru-based intercultural reporting centered on Indigenous communities, with an advocacy perspective.
+6. [Univision Noticias](https://www.univision.com/noticias) — Spanish-language US and international news.
+7. [Factchequeado](https://factchequeado.com/) — Spanish-language fact-checking for US Latino communities; inspect the cited evidence.
+
 ## 🧳 Travel & everyday life
 
 | # | Resource | Explore |
@@ -185,6 +233,18 @@ Tourism resources are useful for both planning and reading practice. Most of the
 12. [Mexico: México Travel Channel](https://mexicotravelchannel.mx/) — commercial travel magazine featuring destinations, food and culture.
 13. [Mexico: México Desconocido](https://www.mexicodesconocido.com.mx/) — commercial travel and culture magazine with destinations, food and traditions.
 
+### 🧭 More travel & planning
+
+1. [Dominican Republic tourism](https://es.godominicanrepublic.com/) — official destination and culture information.
+2. [El Salvador Travel](https://elsalvador.travel/esp/) — destination guides and travel inspiration.
+3. [Honduras Travel](https://www.honduras.travel/) — destinations, food and culture.
+4. [Puerto Rico: Turismo](https://pr.gov/turismo) — government links to visitor services and cultural information.
+5. [Visit Centroamérica](https://www.visitcentroamerica.com/) — regional destinations and cultural ideas.
+6. [Chavetas](https://viajes.chavetas.es/) — travel diaries and practical guides; commercial affiliations may appear.
+7. [Algo que recordar](https://algoquerecordar.com/) — family travel stories and videos; some extras are commercial.
+8. [Viajando por ahí](https://viajandoporahi.com/) — Argentine travel writing; an archive rather than current travel advice.
+9. [Ciudad de México: guía oficial](https://mexicocity.cdmx.gob.mx/e/) — the city's official visitor guide, including neighborhoods, food and culture.
+
 ### 💬 Useful travel phrases
 
 Try changing the words in brackets and saying each phrase aloud. These use a polite form that works in many situations.
@@ -207,22 +267,55 @@ Stories, songs and everyday life make immersion more enjoyable. Most of these ar
 1. [Cuéntame cómo pasó](https://www.rtve.es/play/videos/cuentame-como-paso/) — RTVE's Spanish family drama across recent history; intermediate to advanced. Registration and regional availability vary.
 2. [31 minutos: complete episodes](https://www.youtube.com/playlist?list=PLVI9tQggdGtFXgCwpjTM_d2pdH6ABeRFL) — Chilean puppet-news comedy with songs and visual context; fast jokes make it better for intermediate listeners.
 3. [Guillermina y Candelario](https://maguare.gov.co/guillermina-y-candelario/) — Colombian children's animation about family life on the Pacific coast; visual context can help learners.
+4. [El Ministerio del Tiempo](https://www.rtve.es/play/videos/el-ministerio-del-tiempo/) — Spanish time-travel drama with historical settings; playback rights vary by country.
+5. [RTVCPlay: series de ficción](https://rtvcplay.co/series-ficcion) — Colombian fiction, cultural and children's series; some titles are region-limited.
 
 ### 🎞️ Films & movies
 
 1. [RTVCPlay: cine colombiano](https://www.rtvcplay.co/cine) — Colombian fiction and documentary films from public media; select Spanish-language titles, and note that some are limited outside Colombia.
+2. [RTVE: Somos cine](https://www.rtve.es/play/videos/somos-cine/) — a changing catalogue of Spanish films; registration and regional rights may affect playback.
+3. [Filmoteca Española: plataforma fílmica](https://www.cultura.gob.es/cultura/areas/cine/mc/fe/platfo.html) — Spain's public audiovisual-heritage platform; beta catalogue, language and playback vary by film.
 
 ### 🎶 Music & performances
 
 1. [Los conciertos de Radio 3](https://www.rtve.es/play/videos/los-conciertos-de-radio-3-en-la-2/) — RTVE performances by established and emerging artists; select Spanish-language songs, as not every performance is in Spanish.
 2. [Natalia Lafourcade: Hasta la Raíz](https://www.youtube.com/watch?v=tLetf-h4Y-w) — an official lyric video by the Mexican singer-songwriter; replay a chorus and follow the on-screen words.
 3. [Jorge Drexler Oficial](https://www.youtube.com/channel/UCh9gFyjZsmt_Fz3QXO_5fVA) — music videos by the Uruguayan singer-songwriter; poetic lyrics can be challenging.
+4. [Susana Baca: Tiny Desk Concert](https://www.youtube.com/watch?v=7WiGD2vOqDk) — a live performance by the Peruvian singer on NPR Music; select songs with Spanish lyrics.
 
 ### 🍲 Everyday life
 
 1. [Los puros criollos](https://www.senalcolombia.tv/general/mira-aqui-completa-cuarta-temporada-puros-criollos) — Colombian public TV explores everyday culture, including markets and food; playback may vary.
 2. [De mi Rancho a Tu Cocina](https://www.youtube.com/@DemiRanchoaTuCocina) — Doña Ángela cooks traditional Michoacán dishes at home; the visual context helps with food vocabulary.
 3. [La Ruta de la Garnacha](https://www.youtube.com/channel/UCUAQgUTv4-OiAClB1jYTPnA) — Mexican street food and markets; informal speech and background noise can be challenging.
+4. [MasterChef España](https://www.rtve.es/play/videos/masterchef/) — a cooking competition with everyday food vocabulary; episodes may be region-limited.
+5. [Canal Once: La Ruta del Sabor](https://canalonce.mx/programas/la-ruta-del-sabor) — Mexican public television's culinary travel series; episode access can vary.
+
+### 📽️ More cultural viewing
+
+1. [CNTV Infantil](https://cntvinfantil.cl/) — Chilean public educational animation and activities; some content is designed for children.
+2. [Canal 22](https://canal22.org.mx/) — Mexican cultural television and arts programming; availability varies.
+3. [Aquí la Tierra](https://www.rtve.es/play/videos/aqui-la-tierra/) — RTVE's stories about Spanish places, food and everyday traditions; playback may be region-limited.
+
+### 🌎 Video channels & documentaries
+
+1. [DW Documental](https://www.youtube.com/@DWDocumental) — Spanish-language documentaries on society, history and the world.
+2. [RTVE Play: Documentales](https://www.rtve.es/play/documentales/) — public TV documentary catalogue; availability varies by location.
+3. [BBC News Mundo](https://www.youtube.com/@BBCMundo) — short news videos and explainers in Spanish.
+4. [DW Español](https://www.youtube.com/@dwespanol) — news and documentary reporting in Spanish.
+5. [Academia Play](https://www.youtube.com/@AcademiaPlay) — illustrated history and culture explainers.
+6. [Memorias de Pez](https://www.youtube.com/@MemoriasdePez) — history and geopolitics videos.
+7. [Luisito Comunica](https://www.youtube.com/@luisitocomunica) — travel, food and local culture in Mexican Spanish.
+8. [Alan por el Mundo](https://www.youtube.com/@alanxelmundo) — destination and travel videos in Mexican Spanish.
+9. [PlanetaJuan](https://www.youtube.com/@PlanetaJuan) — Colombian Spanish travel stories.
+10. [Alex Tienda](https://www.youtube.com/@AlexTienda) — travel documentaries and local experiences.
+11. [Molaviajar](https://www.youtube.com/@Molaviajar) — travel guides and planning in Spanish.
+12. [Mariel de Viaje](https://www.youtube.com/c/MarieldeViaje) — Mexican travel videos; select original Spanish audio if dubbed.
+13. [Lethal Crysis](https://www.youtube.com/@LethalCrysis) — travel documentaries and communities around the world.
+14. [La Capital](https://www.youtube.com/@lacapitalcocina) — cooking videos and food vocabulary in Mexican Spanish.
+15. [Paulina Cocina](https://www.youtube.com/@PaulinaCocina) — Argentine cooking videos and everyday language.
+16. [Un Mundo Inmenso](https://www.youtube.com/@UnMundoInmenso) — geography and cultural explainers.
+17. [QuantumFracture](https://www.youtube.com/@QuantumFracture) — Spanish-language science and physics videos.
 
 ## 🤖 AI, machine learning & technology
 
@@ -242,13 +335,67 @@ Stories, songs and everyday life make immersion more enjoyable. Most of these ar
 | 12 | [SomosNLP: NLP de 0 a 100](https://somosnlp.org/nlp-de-cero-a-cien) | Free Spanish-language NLP course; 2021 recordings are useful foundations, not current AI news |
 | 13 | [Loop Infinito](https://www.xataka.com/xataka/loop-infinito-podcast-diario-xataka-tecnologia) | Xataka's technology-analysis podcast, including AI and the industry |
 | 14 | [Pocho Costa: AI agents](https://pochocosta.com/podcast/como-se-arma-un-agente-de-ia-sin-programar/) | Argentine podcast episode and article about AI agents; promotes the host's training business |
+| 15 | [Elementos de IA](https://course.elementsofai.com/es/) | Free introductory Spanish AI course from the University of Helsinki and MinnaLearn |
+| 16 | [Google: aprendizaje automático](https://developers.google.com/machine-learning/crash-course?hl=es-419) | Interactive ML foundations; Google identifies the Spanish translation as AI-generated |
+| 17 | [Hugging Face: curso de LLM](https://huggingface.co/learn/llm-course/es/chapter1/1) | Free Spanish NLP and transformers course; assumes programming and ML knowledge |
+| 18 | [Cinvestav: aprendizaje automático](https://delta.cs.cinvestav.mx/~fraga/Cursos/Aprendizaje/2024/index.html) | Mexican university course notes and exercises; archived 2024 material |
+| 19 | [QUANTA: curso de IA](https://github.com/QUANTA-Research-Group/Course_AI) | Spanish Python and Jupyter course materials; archived 2024 content |
+| 20 | [MIT Technology Review en español](https://www.technologyreview.es/) | Commercial technology and AI reporting; access may vary |
+| 21 | [Microsoft Learn: aprendizaje automático](https://learn.microsoft.com/es-es/training/modules/fundamentals-machine-learning/) | Introductory module; Spanish is machine-translated and assessed progress requires sign-in |
+| 22 | [Dialéktico: curso de machine learning](https://dialektico.com/cursoml/) | Spanish explanations, mathematics and Python exercises; code uses English identifiers |
+| 23 | [UPM: IA generativa y LLM](https://eventos.upm.es/160057/detail/introduccion-a-la-inteligencia-artificial-generativa-a-traves-de-los-grandes-modelos-de-lenguaje-ed.html) | Free university course; registration required; basic Python and web-app development recommended; check enrollment dates |
+| 24 | [Ciencia de Datos](https://cienciadedatos.net/) | Practical Spanish data-science tutorials using R and Python; optional donations |
+| 25 | [Pablo Huijse: Machine Learning Book](https://github.com/phuijse/MachineLearningBook) | Spanish textbook source and notebooks; technical and in development |
+| 26 | [Código Máquina](https://www.youtube.com/@CodigoMaquina) | Spanish neural-network and Python tutorials; promotes business services |
+| 27 | [Codificando Bits](https://www.youtube.com/@codificandobits) | ML and data-science tutorials; separate academy is paid |
+| 28 | [Javi Data Science](https://www.youtube.com/@javidatascience) | Spanish Python and machine-learning projects; promotes paid training |
+| 29 | [UNESCO: ¿qué es la inteligencia artificial?](https://www.unesco.org/es/articles/de-que-hablamos-cuando-hablamos-de-inteligencia-artificial) | Accessible guide to AI applications, limits and ethical questions |
+| 30 | [Intelética](https://journal.iberamia.org/index.php/inteletica) | Open-access research on AI and society; select Spanish articles |
+| 31 | [EscuchAI](https://escuchai.cl/) | Spanish podcast archive on AI concepts and ethics; foundational rather than current news |
 
 ## 🔬 Science & discovery
+
+### 🎥 Videos & documentaries
 
 1. [QuantumFracture](https://www.youtube.com/@QuantumFracture) — physics and science.
 2. [CuriosaMente](https://www.youtube.com/@curiosamente) — science, history and general knowledge.
 3. [Veritasium en español](https://www.youtube.com/channel/UCXtxgWwk55kVJo9lCCZRdmg) — science and engineering.
 4. [Un Mundo Inmenso](https://www.youtube.com/@UnMundoInmenso) — geography, countries and cultures.
+5. [Órbita Laika](https://www.rtve.es/play/videos/orbita-laika/) — RTVE science television; playback availability may vary.
+6. [El cazador de cerebros](https://www.rtve.es/play/videos/el-cazador-de-cerebros/) — RTVE science television and interviews; sign-in or regional rights may affect viewing.
+7. [CONICET Documental](https://documental.conicet.gov.ar/) — Argentine research documentaries and shorts; viewing platforms and access vary.
+
+### 🔭 Space & astronomy
+
+1. [NASA en español](https://www.nasa.gov/es/) — space and Earth science from NASA.
+2. [ESA España](https://www.esa.int/Space_in_Member_States/Spain) — Spanish-language space reporting from the European Space Agency.
+3. [ESA Kids en español](https://kids.esa.int/es/) — space articles, activities and Paxi videos for younger readers.
+4. [ALMA Kids](https://kids.alma.cl/es/) — the Chilean observatory's astronomy explainers, comics and activities for children.
+5. [European Southern Observatory: español](https://www.eso.org/public/spain/) — astronomy news, images and discoveries; some linked material is in English.
+6. [Instituto de Astrofísica de Canarias](https://www.iac.es/es/divulgacion) — astronomy news, educational resources and multimedia from the Canary Islands.
+
+### 📰 Science writing & natural history
+
+1. [Agencia SINC](https://www.agenciasinc.es/) — Spanish science news and explainers.
+2. [Ciencia UNAM](https://ciencia.unam.mx/) — Mexican university science articles, audio and video.
+3. [¿Cómo ves?](https://www.comoves.unam.mx/) — UNAM's science magazine and teaching guides; some material is print-only.
+4. [CSIC: actualidad](https://www.csic.es/es/actualidad-del-csic) — research reporting from Spain's national research council.
+5. [CONICET: noticias](https://www.conicet.gov.ar/noticias-conicet/) — Argentine research news across the natural and social sciences.
+6. [The Conversation: ciencia y tecnología](https://theconversation.com/es/ciencia) — research-informed articles by academics for general readers; donations are optional.
+7. [SciDev.Net América Latina](https://www.scidev.net/america-latina/) — reporting on science, health, environment and development; sponsored content is labeled.
+8. [Naukas](https://naukas.com/) — Spanish science-communication blogs and events; event access varies.
+9. [Museo Nacional de Historia Natural de Chile](https://www.mnhn.gob.cl/) — natural-history articles, digital collections and educational resources.
+10. [Biodiversidad Mexicana](https://www.biodiversidad.gob.mx/) — CONABIO resources on species, ecosystems and citizen science; some publications are sold.
+11. [Organización Panamericana de la Salud: temas](https://www.paho.org/es/temas) — Spanish-language public-health explanations and fact sheets.
+12. [Explora: Biblioteca Digital](https://explora.cl/biblioteca-digital) — Chilean science-education guides, illustrated books and activities; cite shared material and observe its reuse terms.
+
+### 🎙️ Science audio
+
+1. [CienciaEs](https://cienciaes.com/) — science podcasts, interviews and written episode descriptions; donations are optional.
+2. [A hombros de gigantes](https://www.rtve.es/play/audios/a-hombros-de-gigantes/) — RNE science news and interviews; playback availability may vary.
+3. [Entre probetas](https://www.rtve.es/play/audios/entre-probetas/) — archived RNE discussions of biology, medicine and research.
+4. [Ciencia al cubo](https://www.rtve.es/play/audios/ciencia-al-cubo/) — RNE science audio archived through 2015; treat its research news as historical.
+5. [Radio UNAM: La ciencia que somos](https://radiopodcast.unam.mx/podcast/verserie/246) — Ibero-American research conversations; intended for personal, noncommercial listening.
 
 ## 🎮 Nintendo & gaming
 
@@ -261,6 +408,28 @@ Stories, songs and everyday life make immersion more enjoyable. Most of these ar
 7. [Iwata pregunta: Super Mario](https://www.nintendo.com/es-es/Iwata-pregunta/25-aniversario-de-Super-Mario-Bros-/Volumen-5-Los-desarrolladores-del-primer-Super-Mario/1-Utilizar-la-cruceta-para-saltar/1-Utilizar-la-cruceta-para-saltar-212727.html) — Nintendo's Spanish interview with the original game developers.
 8. [A Link to the Podcast](https://alinktothepodcast.com/) — Spanish Nintendo podcast with interviews, indie games and retro segments.
 9. [RetroManiac](https://www.retromaniacmagazine.com/) — Spanish retro-gaming articles, interviews and podcasts.
+10. [Nintendo México](https://www.nintendo.com/es-mx/) — official Latin American Spanish product information and news; games are commercial.
+11. [Nintendo: historia de sus consolas](https://www.nintendo.com/es-es/Hardware/La-historia-de-Nintendo/La-historia-de-Nintendo-625945.html) — official Spanish history of Nintendo hardware.
+12. [NextN](https://www.nextn.es/) — Nintendo reporting, interviews and podcasts; advertising and affiliate links appear.
+13. [Un café con Nintendo](https://uncafeconnintendo.wordpress.com/) — Spanish Nintendo discussions and interviews.
+14. [LevelUp](https://www.levelup.com/) — Mexican and Latin American games news and reviews.
+15. [IGN Latinoamérica](https://latam.ign.com/) — Spanish-language games and entertainment coverage.
+16. [Nivel Oculto](https://niveloculto.com/) — indie-game criticism and podcasts; language can be informal.
+17. [AnaitGames](https://www.anaitgames.com/) — Spanish games criticism and commentary.
+18. [Nintendo España](https://www.youtube.com/@NintendoES) — official Spanish trailers and Nintendo Direct presentations; promotional.
+19. [Pokémon Oficial ES](https://www.youtube.com/@PokemonOficialES) — official Spanish Pokémon game presentations and animation clips; promotional.
+20. [Universo Nintendo](https://universo-nintendo.com.mx/) — Mexican Nintendo news and commentary; also covers anime.
+21. [Hobby Consolas](https://www.hobbyconsolas.com/) — Spanish game reviews, news and retro features; affiliate links and a paid magazine.
+22. [Atomix](https://atomix.vg/) — Mexican games news, reviews and industry coverage; commercial publication.
+23. [VidaExtra](https://www.vidaextra.com/) — Spanish game journalism and guides across platforms; includes commercial content.
+24. [DeVuego Blog](https://www.devuego.es/blog/) — Spanish indie-game criticism, interviews and industry history; optional paid magazine.
+25. [Press Over](https://pressover.news/) — Argentine reporting on games and Latin American developers; offers a supporter club.
+26. [Leyendas & Videojuegos](https://www.youtube.com/@LeyendasyVideojuegos) — game-history and design essays; sponsored and self-promotional content appears.
+27. [La Poción Roja](https://www.youtube.com/@LaPocionRoja) — retro and contemporary gaming features.
+28. [Las Retro Aventuras](https://www.youtube.com/@lasretroaventuras) — retrospectives on NES and Nintendo 64, plus nostalgic media.
+29. [TuberViejuner](https://www.youtube.com/@TuberViejuner) — retro hardware and console histories; sponsorships may appear.
+30. [Cultura VJ](https://www.youtube.com/@CulturaVJ) — game-history documentaries, including Pokémon and Zelda; sponsorships may appear.
+31. [Rejugando](https://rejugando.com/) — Spanish podcast discussions of game history, interviews and releases across platforms.
 
 ## 🏛 Politics & economics
 
@@ -273,6 +442,10 @@ Explore political vocabulary across perspectives. These are approximate, context
 3. [Democracy Now! en español](https://www.democracynow.org/es) — independent progressive news and interviews · US and international. Website
 4. [CTXT](https://ctxt.es/) — left-leaning political and cultural commentary · Spain. Website
 5. [El Salto](https://www.elsaltodiario.com/) — Spanish cooperative publication with reporting and left-wing commentary; some content is members-only. Website
+6. [Nueva Sociedad](https://nuso.org/) — Latin American political essays and analysis; distinguish commentary from straight reporting.
+7. [Público](https://www.publico.es/) — Spanish news and commentary with a progressive editorial perspective; subscriptions are offered.
+8. [elDiarioAR](https://www.eldiarioar.com/) — Argentine reporting, investigations and opinion; membership is offered.
+9. [CLACSO: Masa Crítica](https://libreria.clacso.org/coleccion.php?c=51) — open-access Latin American political essays, including critical and left-wing perspectives.
 
 ### ⚪ Center & broadly varied perspectives
 
@@ -285,16 +458,34 @@ These sources do not necessarily identify as centrist: they offer a range of rep
 5. [VisualPolitik](https://www.youtube.com/@VisualPolitik) — international affairs and economics commentary; not a neutral news wire.
 6. [Chequeado](https://chequeado.com/) — Argentine fact-checking and explanatory journalism; inspect its sources and methodology. Website
 
+### 📊 Primary sources & public data
+
+1. [INEGI](https://www.inegi.org.mx/) — Mexico's official statistics and geography.
+2. [INE México](https://www.ine.mx/) — Mexican electoral information.
+3. [Congreso de los Diputados](https://www.congreso.es/) — Spanish parliamentary proceedings and records.
+4. [Cámara de Diputados de Argentina](https://www.hcdn.gob.ar/) — Argentine legislative information and records.
+5. [CEPAL: estadísticas económicas](https://www.cepal.org/es/temas/estadisticas-economicas) — UN regional economic statistics and methodological resources.
+6. [Banco Mundial: datos en español](https://datos.bancomundial.org/) — international development indicators and country comparisons.
+7. [Instituto Nacional de Estadística](https://www.ine.es/) — Spain's official population, economic and social statistics.
+8. [DANE Colombia](https://www.dane.gov.co/) — Colombia's official statistical agency and publications.
+
+### 🌐 Geopolitics & economic explainers
+
+1. [El Orden Mundial](https://elordenmundial.com/) — geopolitics, maps and podcasts; subscriptions are offered.
+2. [Economía de bolsillo](https://www.rtve.es/play/audios/economia-de-bolsillo/) — RNE audio about everyday economics.
+
 ### 🔵 Right, liberal & libertarian perspectives
 
 1. [Juan Ramón Rallo](https://www.youtube.com/@juanrallo) — liberal economics · Spain.
 2. [Agustín Laje](https://www.youtube.com/results?search_query=Agustin+Laje+Arrigoni+oficial) — social conservative commentary · Argentina. 🔎 Search link
-3. [Libertad Digital](https://www.youtube.com/results?search_query=Libertad+Digital+oficial) — right-leaning news · Spain. 🔎 Search link
-4. [La Derecha Diario](https://www.youtube.com/results?search_query=La+Derecha+Diario+oficial) — right-leaning news · Argentina. 🔎 Search link
+3. [Libertad Digital](https://www.libertaddigital.com/) — right-leaning news and commentary · Spain.
+4. [La Derecha Diario](https://derechadiario.com.ar/) — Argentine right-wing and pro-Milei news and opinion; cross-check claims with independent sources.
 5. [Tipito Enojado](https://www.youtube.com/results?search_query=Tipito+Enojado+oficial) — libertarian commentary and satire · Argentina. 🔎 Search link
-6. [Fundación para el Progreso](https://www.youtube.com/results?search_query=Fundacion+para+el+Progreso+Chile) — classical liberal ideas · Chile. 🔎 Search link
+6. [Fundación para el Progreso](https://fppchile.org/) — classical-liberal ideas and policy commentary · Chile.
 7. [Negocios TV](https://www.youtube.com/results?search_query=Negocios+TV+oficial) — markets and interviews · Spain. 🔎 Search link
 8. [ABC](https://www.abc.es/) — Spanish newspaper with a historically conservative editorial outlook; some articles require a subscription. Website
+9. [El Cato](https://www.elcato.org/) — Spanish-language libertarian policy essays from the Cato Institute.
+10. [La Nación Argentina](https://www.lanacion.com.ar/) — Argentine reporting and opinion with a historically conservative editorial outlook; some articles require a subscription.
 
 Search links are intentionally labeled: choose the official channel from the results. Political labels vary by country, issue and over time.
 
@@ -373,7 +564,7 @@ A mix of Catholic teaching, news, philosophy and cultural traditions. These sour
 ### 📺 Catholic channels & news
 
 1. [EWTN Español](https://www.youtube.com/@EWTNEspanol) — Catholic television, interviews and devotional programming.
-2. [ACI Prensa](https://www.aciprensa.com/) — Catholic news in Spanish.
+2. [EWTN News en Español](https://www.ewtnnews.com/es) — Catholic news in Spanish; ACI Prensa redirects here.
 3. [Catholic Link](https://www.youtube.com/@catholic-link) — Catholic media and faith-related discussions.
 4. [Píldoras de Fe](https://www.youtube.com/@PildorasdeFe) — Catholic reflections and prayer.
 5. [Fray Nelson Medina](https://www.youtube.com/results?search_query=Fray+Nelson+Medina) — talks and theological reflections. 🔎 Search link
@@ -389,6 +580,17 @@ A mix of Catholic teaching, news, philosophy and cultural traditions. These sour
 4. [Ciudad Redonda](https://www.ciudadredonda.org/) — daily readings, reflections and prayer resources.
 5. [Rezandovoy](https://www.rezandovoy.org/) — free Jesuit guided prayer with scripture and music.
 6. [Dominicos: Evangelio del día](https://www.dominicos.org/predicacion/evangelio-del-dia/hoy/) — daily scripture readings, written reflections and video.
+7. [Concilio Vaticano II](https://www.vatican.va/archive/hist_councils/ii_vatican_council/index_sp.htm) — official Spanish texts from Vatican II.
+8. [Compendio de la doctrina social](https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_sp.html) — official Catholic social teaching.
+9. [USCCB: lecturas diarias](https://bible.usccb.org/es/lectura-diaria-biblia) — daily readings in Spanish; lectionaries may differ by location.
+10. [Conferencia Episcopal Argentina](https://www.episcopado.org/) — official statements and Church news.
+11. [Conferencia Episcopal de Colombia](https://www.cec.org.co/) — official communications and pastoral resources.
+12. [Celam TV](https://www.youtube.com/@celamtv) — the Latin American episcopal council's channel.
+13. [Vida Nueva](https://www.vidanuevadigital.com/) — Catholic news and commentary; subscriptions are offered.
+14. [Ágora, un tiempo para pensar](https://www.rtve.es/play/audios/agora-un-tiempo-para-pensar/) — RNE philosophy audio, not specifically Catholic.
+15. [PastoralSJ](https://pastoralsj.org/) — Jesuit reflections on faith, society, books and culture.
+16. [Radio María España](https://radiomaria.es/) — Catholic prayer, talks and live audio; programming reflects a devotional perspective.
+17. [Conferencia Episcopal de México](https://cem.org.mx/) — statements and pastoral resources from the Mexican bishops' conference.
 
 ### 🏛️ Philosophy, history & cultural heritage
 
@@ -407,20 +609,74 @@ Try a short reflection or museum story, write down a few recurring words, then d
 2. [WordReference](https://www.wordreference.com/es/en/translation.asp) — Spanish–English translations and discussions.
 3. [SpanishDict](https://www.spanishdict.com/) — translations, conjugations and practice.
 4. [Forvo Spanish](https://forvo.com/languages/es/) — hear words pronounced by speakers from different places.
+5. [Diccionario de americanismos](https://www.asale.org/damer/) — ASALE's reference for regional vocabulary across the Americas.
+6. [Diccionario del español de México](https://dem.colmex.mx/) — El Colegio de México's dictionary of Mexican Spanish.
+7. [FundéuRAE](https://www.fundeu.es/) — Spanish writing and usage recommendations.
+8. [Diccionario panhispánico de dudas](https://www.rae.es/dpd/) — academic explanations of common Spanish usage questions.
+
+### 🧰 More dictionaries & practice tools
+
+1. [Cambridge: Spanish–English](https://dictionary.cambridge.org/dictionary/spanish-english/) — bilingual dictionary with usage examples and audio where available.
+2. [PONS: español–inglés](https://es.pons.com/traducci%C3%B3n/espa%C3%B1ol-ingl%C3%A9s) — bilingual dictionary and translation reference.
+3. [Linguee español–inglés](https://www.linguee.es/espanol-ingles) — bilingual examples from published texts; check context and source quality.
+4. [Wikcionario](https://es.wiktionary.org/wiki/Wikcionario:Portada) — community-edited Spanish dictionary; entries vary in detail.
+5. [LanguageGuide: Spanish vocabulary](https://www.languageguide.org/spanish/) — illustrated vocabulary with audio.
+6. [Lingolia: Spanish](https://espanol.lingolia.com/en/) — grammar and vocabulary explanations in English; some exercises are paid.
+7. [Lección-E: recursos gratuitos](https://www.leccion-e.com/recursos-gratuitos) — learner activities, games and expressions; courses are also sold.
+8. [UNED: resources for learners](https://spanish.uned.es/en/means/resources-for-apprentices) — university grammar and micro-learning activities; some items are under construction.
+9. [Anki](https://apps.ankiweb.net/) — spaced-repetition flashcard tool; choose or create a Spanish deck and check platform pricing.
+10. [Aprender Español](https://www.aprenderespanol.org/) — grammar, listening and vocabulary exercises with advertising.
+11. [Spanish Listening](https://www.spanishlistening.org/) — short clips and practice questions with varied accents.
+12. [UT Austin: Spanish Proficiency Exercises](https://www.laits.utexas.edu/spe/) — regional-speaker listening activities; some media is older.
+13. [Conjuguemos](https://conjuguemos.com/) — interactive verb and vocabulary practice.
+14. [StudySpanish.com](https://studyspanish.com/) — grammar and pronunciation exercises; some features are paid.
+15. [VideoEle](https://videoele.com/menu-A1.html) — level-based videos, transcripts and activities.
+16. [SpanishBOOM](https://spanishboom.com/spanish-texts-with-audio/) — short reading-and-audio practice; courses are also sold.
+17. [Lingua.com: Spanish reading](https://lingua.com/spanish/reading/) — graded reading questions; most texts and some audio require premium.
+18. [Language Transfer: Complete Spanish](https://www.languagetransfer.org/complete-spanish) — a free audio course focused on language patterns.
+19. [Spanish Playground: Buena Gente](https://www.spanishplayground.net/spanish-video-series-buena-gente/) — visually supported beginner stories and some free activities.
+20. [ProfeDeELE: A1 activities](https://www.profedeele.es/a1) — learner activities across vocabulary and grammar; premium materials are offered.
+21. [Tatoeba: Spanish–English sentences](https://tatoeba.org/en/sentences/search?from=spa&to=eng) — community-contributed example sentences; verify translations in context.
+22. [Reverso Context](https://context.reverso.net/traduccion/espanol-ingles/) — bilingual examples; automated suggestions need context checking.
+23. [Collins: Spanish–English](https://www.collinsdictionary.com/dictionary/spanish-english) — bilingual dictionary and usage examples.
 
 ## 🎧 Listen on the go
 
+### 🌱 Learner-friendly listening
+
 1. [Coffee Break Spanish](https://coffeebreaklanguages.com/coffeebreakspanish/) — guided audio lessons, starting with the basics.
 2. [Notes in Spanish](https://www.notesinspanish.com/) — conversations and learning materials from Spain at several levels.
-3. [Radio Ambulante](https://radioambulante.org/) — narrative journalism from across Latin America, best for confident listeners; transcripts are available on its website.
-4. [Duolingo Spanish Podcast](https://podcast.duolingo.com/spanish) — intermediate true stories with English narration and transcripts; a free episode archive.
-5. [Charlas Hispanas](https://charlashispanas.com/) — Latin American culture, news and expressions; episodes are publicly listed, while full transcripts and exercises require premium.
-6. [El hilo](https://elhilo.audio/) — Latin American news and context for confident listeners; episodes and transcripts are available online.
-7. [No Hay Tos](https://www.nohaytospodcast.com/about) — Mexican Spanish podcast about life and culture for intermediate learners; some episodes contain explicit language and some full transcripts may require payment.
-8. [Hoy Hablamos](https://www.hoyhablamos.com/category/podcast-aprender-espanol/) — Spanish-from-Spain podcast for intermediate and advanced learners; some recent audio is free, while the full archive, transcripts and exercises require premium.
-9. [Spanish Obsessed: beginner conversations](https://www.spanishobsessed.com/beginners-spanish/) — beginner audio with some English guidance and Colombian Spanish; free episodes, with limited free transcripts and paid materials.
-10. [Españolistos](https://www.espanolistos.com/) — Colombian teacher Andrea and learner Nate discuss culture and daily life in mostly Spanish; the collected transcript set requires a donation, while individual episode access can vary.
-11. [Chill Spanish Listening Practice](https://www.youtube.com/channel/UCJ4YHlzG7n0R9vXJar69RTA/featured) — short learner-oriented episodes about everyday topics; caption and transcript availability varies.
+3. [Duolingo Spanish Podcast](https://podcast.duolingo.com/spanish) — intermediate true stories with English narration and transcripts; a free episode archive.
+4. [Charlas Hispanas](https://charlashispanas.com/) — Latin American culture, news and expressions; episodes are publicly listed, while full transcripts and exercises require premium.
+5. [No Hay Tos](https://www.nohaytospodcast.com/about) — Mexican Spanish podcast about life and culture for intermediate learners; some episodes contain explicit language and some full transcripts may require payment.
+6. [Hoy Hablamos](https://www.hoyhablamos.com/category/podcast-aprender-espanol/) — Spanish-from-Spain podcast for intermediate and advanced learners; some recent audio is free, while the full archive, transcripts and exercises require premium.
+7. [Spanish Obsessed: beginner conversations](https://www.spanishobsessed.com/beginners-spanish/) — beginner audio with some English guidance and Colombian Spanish; free episodes, with limited free transcripts and paid materials.
+8. [Españolistos](https://www.espanolistos.com/) — Colombian teacher Andrea and learner Nate discuss culture and daily life in mostly Spanish; the collected transcript set requires a donation, while individual episode access can vary.
+9. [Chill Spanish Listening Practice](https://www.youtube.com/channel/UCJ4YHlzG7n0R9vXJar69RTA/featured) — short learner-oriented episodes about everyday topics; caption and transcript availability varies.
+10. [Españófilos](https://www.espanofilos.com/) — Spain-based conversations for A2–B2 learners, with transcripts on episode pages.
+11. [Radio ELE](https://radioele.com/) — intermediate Spanish listening; full transcripts and extra episodes are part of its paid membership.
+12. [Español Con Todo](https://www.espanolcontodo.com/p/podcast-espanol-con-todo.html) — intermediate and advanced stories, culture and current topics; some transcripts are free and other materials may be paid.
+13. [Explora ELE](https://www.profe-de-espanol.de/podcast-explora-ele) — intermediate-level culture and current topics, including short episodes and selected transcripts.
+14. [Spanish with Vicente](https://www.spanishwithvicente.com/podcast/) — intermediate and advanced Spanish on culture and language; full access to PDF materials requires a subscription.
+15. [Easy Spanish Podcast](https://www.easy-spanish.org/podcast) — conversations about language and daily life in Spain and Mexico; interactive transcripts require membership.
+16. [Español a la mexicana](https://podcasts.apple.com/mx/podcast/espa%C3%B1ol-a-la-mexicana/id1555326452) — Estefanía's short episodes on Mexican Spanish and culture; full transcripts are a paid extra.
+17. [Chatting in Latino Spanish](https://open.spotify.com/show/6QkyFSvGbMvxz98EaNbFLY) — an intermediate interview archive featuring Latin American accents; some transcripts are free and a collected pack is sold.
+18. [News in Slow Spanish](https://www.newsinslowspanish.com/home/news) — news at learner-friendly speeds in Spain and Latin American editions; subscription required for full audio and transcripts.
+
+### 🌎 Native-speed stories & radio
+
+1. [Radio Ambulante](https://radioambulante.org/) — narrative journalism from across Latin America, best for confident listeners; transcripts are available on its website.
+2. [El hilo](https://elhilo.audio/) — Latin American news and context for confident listeners; episodes and transcripts are available online.
+3. [Radio Nacional de Colombia](https://www.radionacional.co/) — regional voices, music and podcasts.
+4. [DianaUribe.fm](https://www.dianauribe.fm/) — Colombian history and culture storytelling; optional paid support is offered.
+5. [Las Raras](https://lasraraspodcast.com/) — independent Spanish-language nonfiction audio; some subjects are difficult.
+6. [Documentos RNE](https://www.rtve.es/play/audios/documentos-rne/) — Spanish public-radio documentaries about history and culture.
+7. [RNE Audio: podcasts](https://www.rtve.es/play/radio/podcasts/) — a public-radio catalogue across many topics; check individual program availability.
+8. [Central](https://centralpodcast.audio/) — Radio Ambulante Studios' narrative documentary series; transcripts are available and some themes are difficult.
+9. [Súbele a la ciencia](https://www.radiopodcast.unam.mx/podcast/verserie/422) — Radio UNAM conversations between students and scientists; native-speed Mexican Spanish.
+10. [Fallo de sistema](https://www.rtve.es/play/audios/fallo-de-sistema/) — RNE's science, science-fiction and gaming program; native speed.
+11. [La estación azul](https://www.rtve.es/play/audios/la-estacion-azul/) — RNE literature, authors and book discussions; native speed.
+12. [El Gran Apagón](https://www.podiumpodcast.com/podcasts/el-gran-apagon-podium-os/) — Spanish audio-fiction series about a global blackout; native-speed dialogue and dramatic sound effects.
 
 Audio alone can be harder than video. Start with a short episode, use a transcript if available, and revisit it later without reading.
 
@@ -461,7 +717,7 @@ Repeat a week or switch topics whenever you need to. This is a practice plan, no
 
 The original watchlist came from a Spanish-learning conversation and is organized here for browsing. Difficulty and topic descriptions are guides, not endorsements; creators' content and links can change. Search links are labeled, and channel handles should be checked before subscribing. If you find an outdated link or have a useful suggestion, [open an issue](https://github.com/dmoliveira/learn-spanish-immersion/issues/new).
 
-**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. For local README anchors and files, contributors can run `npm ci --ignore-scripts` followed by `npm run check:links` with Node.js 22. The automated check does **not** verify external websites or their content. The [website](https://dmoliveira.github.io/learn-spanish-immersion/) is generated from this README; to preview changes, run `npm test`, `npm run build`, and `python3 -m http.server --directory dist`, then visit `http://localhost:8000/`.
+**Contributing a link?** Prefer the creator's official Spanish-language page or channel, briefly describe its topic and level, and label search links and paid features. Check that the destination is the intended creator, not just that it opens. With Node.js 22, run `npm ci --ignore-scripts`, `npm run check:links` for local anchors and files, and `npm run check:resources` for at least 30 distinct direct resource entries in each main topic. Search-result pointers do not count; a useful resource may appear in more than one topic. These automated checks do **not** verify external websites or their content. The [website](https://dmoliveira.github.io/learn-spanish-immersion/) is generated from this README; to preview changes, run `npm test`, `npm run build`, and `python3 -m http.server --directory dist`, then visit `http://localhost:8000/`.
 
 ## 💛 Support the project
 
